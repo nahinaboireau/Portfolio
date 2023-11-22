@@ -22,9 +22,7 @@
 </nav>
 
 
-<section class="accueil">
-    
-</section>
+
     
 </body>
 </html>

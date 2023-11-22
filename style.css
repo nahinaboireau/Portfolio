@@ -22,8 +22,7 @@ nav{
     width: 10%;
     display:flex;  
     margin:auto;
-    
-
+    padding-top:5px;
 }
 
 .rubrique{
@@ -31,6 +30,9 @@ nav{
     flex-direction:column;
     align-items:center;
     justify-content:center; 
+    padding-bottom:10px;
+    padding-top:5px;
+    gap:5px;
   
 }
 
@@ -38,10 +40,9 @@ nav{
     color:white;
     font-size:0.7em;
     text-decoration:none;
-    gap:5%;
+   
 
 }
-
 
 /* media queries pour agrandir pour format écran et tablette  */
   
