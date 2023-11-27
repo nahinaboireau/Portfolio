@@ -31,6 +31,9 @@
                 </div>
                 <h1 class="nom">NAHINA BOIREAU</h1>
             </div>
+            <div class="boite-image">
+                <img src="./images/image-accueil.jpg" alt="">
+            </div>
             
 
 

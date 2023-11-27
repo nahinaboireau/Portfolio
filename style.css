@@ -9,15 +9,15 @@ body {
     background: white;
     margin: 0;
     font-family: 'Marcellus', serif;
-    
+
 
 }
 
 /* format téléphone /* 320 x 480 px */
 nav {
-   background-color: #6C3E3E;
+    background-color: #6C3E3E;
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
 }
 
 .logo {
@@ -46,61 +46,86 @@ nav {
 }
 
 
-.accueil{
-display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: 1fr 3fr;
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-height:100vh;
+.accueil {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+   
 }
 
 
-div.boite-tout{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+div.boite-tout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 
-div.boite-petit{
-    display:flex;
+div.boite-petit {
+    display: flex;
     flex-direction: column;
-    height:60%;
+    height: 60%;
     padding-right: 10px;
     margin-top: 60px;
     margin-bottom: 0;
 
 }
 
-div.bordure{
+div.bordure {
     background-color: #6C3E3E;
-    border-radius:36px;
-    width:100%;
-    height:8px;
+    border-radius: 36px;
+    width: 100%;
+    height: 8px;
     margin: 0;
 
+
+}
+
+
+
+.nom {
+    color: #6C3E3E;
+    font-family: 'Marcellus', serif;
+    font-size: 0.9em;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+
+.portfolio {
+    color: #6C3E3E;
+    font-family: 'Marcellus', serif;
+    font-size: 0.6em;
+    display: flex;
+    margin-top: 0;
+
+
+}
+
+.boite-image {
+    width: 100%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+ 
+
+}
+
+.boite-image img {
+    
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
    
-}
-
-
-
-.nom{
-    color:#6C3E3E;
-    font-family: 'Marcellus', serif;
-    font-size:0.9em;
-    display:flex; 
-    margin-bottom:5px;
-}
-
-
-.portfolio{
-    color:#6C3E3E;
-    font-family: 'Marcellus', serif;
-    font-size:0.6em;
-    display:flex; 
-    margin-top:0;
-  
 
 }
+
 
 /* media queries pour agrandir pour format écran et tablette  */
