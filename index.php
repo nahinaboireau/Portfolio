@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -24,6 +24,13 @@
 
     <main>
         <section class="accueil">
+            <div class="boite-tout">
+                <div class="boite-petit">
+                    <div class="bordure"></div>
+                    <p class="portfolio">Portfolio</p>
+                </div>
+                <h1 class="nom">NAHINA BOIREAU</h1>
+            </div>
             
 
 
