@@ -32,8 +32,16 @@
                 <h1 class="nom">NAHINA BOIREAU</h1>
             </div>
             <div class="boite-image">
-                <img src="./images/image-accueil.jpg" alt="">
+                <img src="./images/image-accueil.jpg" alt=""> 
             </div>
+           <div class="text">
+                <ul>
+                    <li>Photographe</li>
+                    <li>Monteuse Vidéo</li>
+                    <li>Musicienne</li>
+                </ul>
+           </div>
+           
             
 
 
