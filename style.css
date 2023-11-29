@@ -138,9 +138,84 @@ div.bordure {
     margin-right: 10px;
 }
 
-/* Ajoute une pseudo-classe pour ajouter un espace entre la puce et le texte de l'élément li */
+/* Pour ajouter un espace entre la puce et le texte de l'élément li */
 .boite-liste li::before {
     
     content: '\2022';
     margin-right: 5px;
+}
+
+
+/* A propos */
+.titre-apropo{
+    margin-right:10px;
+    margin-left:10px; 
+    margin-bottom:5px; 
+}
+.paragraphe-apropo{
+    margin-right:10px;
+    margin-left:10px;
+    margin-bottom:5px;
+    font-size:0.8em;
+}
+
+.division1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    place-items: center;
+    margin-top:10px;
+    margin-bottom:10px;
+  
+    
+}
+
+.essentiel{
+    font-size:0.7em;
+    
+}
+
+/* slider */
+div.slider-container {
+    width: 100%;
+    overflow: hidden; /* Empêche le débordement du contenu de l'élément */
+}
+
+div.slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-content {
+    display: flex;
+    animation-name: slide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-left: 10px; /* Ajoute une marge à gauche */
+    margin-right: 10px; /* Ajoute une marge à droite */
+}
+
+.slider-content img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@keyframes slide {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(0); /* Reste à la position initiale pour éviter le débordement */
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    75% {
+        transform: translateX(-200%);
+    }
 }

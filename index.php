@@ -32,7 +32,7 @@
                 <h1 class="nom">NAHINA BOIREAU</h1>
             </div>
             <div class="boite-image">
-                <img src="./images/image-accueil.jpg" alt=""> 
+                <img src="./images/image-accueil.jpg" alt="">
             </div>
             <div class="boite-liste">
                 <ul>
@@ -42,10 +42,26 @@
                 </ul>
             </div>
         </section>
+        <!-- slider -->
         <section class="apropos">
             <h1 class="titre-apropo">A propos</h1>
-            
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam provident dignissimos a accusantium reprehenderit sunt repudiandae ex est, debitis dicta eaque! Officia atque aut officiis nam laborum sunt dolore aliquid!</p>
+            <div class="division1">
+
+                <p class="paragraphe-apropo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam provident
+                    dignissimos a accusantium reprehenderit sunt repudiandae ex est, debitis dicta eaque! Officia atque
+                    aut officiis nam laborum sunt dolore aliquid!</p>
+                <ul class="essentiel">
+                    <li>20 ans</li>
+                    <li>BUT MMI</li>
+                    <li>Champs-sur-Marne</li>
+                </ul>
+
+            </div>
+            <div class="slider">
+                <div class="slider-content">
+                    <img src="./images/image-accueil.jpg"><img src="./images/image-accueil.jpg"><img src="./images/image-accueil.jpg">
+                </div>
+            </div>
 
         </section>
     </main>
