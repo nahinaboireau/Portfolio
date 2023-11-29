@@ -46,7 +46,7 @@ nav {
 }
 
 
-.accueil {
+.header {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 6fr;
@@ -71,7 +71,7 @@ div.boite-petit {
     flex-direction: column;
     height: 48%;
     padding-right: 10px;
-    margin-top: 20px;
+    margin-top: 25px;
 
   
 
@@ -114,6 +114,7 @@ div.bordure {
     height: 100%;
     display:flex;
     justify-content: center;
+
 }
 
 .boite-image img {
@@ -121,22 +122,25 @@ div.bordure {
     height: 90%;
     object-fit: cover;
     object-position: center;
+}
+
+.boite-liste ul {
+    padding:0;
+    margin:0;
+    font-size:0.9em;
+    display:flex;
+    justify-content: center;
    
-
 }
 
-
-/* media queries pour agrandir pour format écran et tablette  */
-
-
-div.text ul {
-  
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
+.boite-liste li {
+    display: inline;
+    margin-right: 10px;
 }
 
-div.text li {
-    margin-right: 10px; 
+/* Ajoute une pseudo-classe pour ajouter un espace entre la puce et le texte de l'élément li */
+.boite-liste li::before {
+    
+    content: '\2022';
+    margin-right: 5px;
 }

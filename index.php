@@ -23,7 +23,7 @@
     </nav>
 
     <main>
-        <section class="accueil">
+        <section class="header">
             <div class="boite-tout">
                 <div class="boite-petit">
                     <div class="bordure"></div>
@@ -34,18 +34,18 @@
             <div class="boite-image">
                 <img src="./images/image-accueil.jpg" alt=""> 
             </div>
-           <div class="text">
+            <div class="boite-liste">
                 <ul>
                     <li>Photographe</li>
-                    <li>Monteuse Vidéo</li>
+                    <li>Monteuse</li>
                     <li>Musicienne</li>
                 </ul>
-           </div>
-           
+            </div>
+        </section>
+        <section class="apropos">
+            <h1 class="titre-apropo">A propos</h1>
             
-
-
-
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam provident dignissimos a accusantium reprehenderit sunt repudiandae ex est, debitis dicta eaque! Officia atque aut officiis nam laborum sunt dolore aliquid!</p>
 
         </section>
     </main>
