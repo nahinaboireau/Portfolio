@@ -62,7 +62,7 @@
                     <img src="./images/image-accueil.jpg"><img src="./images/image-accueil.jpg"><img src="./images/image-accueil.jpg">
                 </div>
             </div>
-
+                <br>
         </section>
     </main>
 

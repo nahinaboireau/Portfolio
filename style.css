@@ -147,14 +147,18 @@ div.bordure {
 
 
 /* A propos */
+.apropos{
+    height:fit-content;
+}
+
 .titre-apropo{
-    margin-right:10px;
-    margin-left:10px; 
+    margin-right:20px;
+    margin-left:20px; 
     margin-bottom:5px; 
 }
 .paragraphe-apropo{
-    margin-right:10px;
-    margin-left:10px;
+    margin-right:20px;
+    margin-left:20px;
     margin-bottom:5px;
     font-size:0.8em;
 }
@@ -167,25 +171,18 @@ div.bordure {
     grid-row-gap: 0px;
     place-items: center;
     margin-top:10px;
-    margin-bottom:10px;
-  
-    
+    margin-bottom:10px;  
 }
 
 .essentiel{
     font-size:0.7em;
+    margin-right:10px;
     
 }
 
-/* slider */
-/* div.slider-container {
-    width: 100%;
-    
-} */
-
 div.slider {
     width: 90%;
-    height: 100%;
+    height: fit-content;
     display: flex;
     justify-content: center;
     overflow: hidden;
@@ -223,3 +220,5 @@ div.slider {
         transform: translateX(-200%);
     }
 }
+
+/* carré blanc dans une image */
