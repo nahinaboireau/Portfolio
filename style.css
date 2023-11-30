@@ -178,16 +178,20 @@ div.bordure {
 }
 
 /* slider */
-div.slider-container {
+/* div.slider-container {
     width: 100%;
-    overflow: hidden; /* Empêche le débordement du contenu de l'élément */
-}
+    
+} */
 
 div.slider {
-    width: 100%;
+    width: 90%;
     height: 100%;
     display: flex;
     justify-content: center;
+    overflow: hidden;
+    margin-left: 10px; /* Ajoute une marge à gauche */
+    margin-right: 10px;
+    margin: auto;
 }
 
 .slider-content {
@@ -195,8 +199,8 @@ div.slider {
     animation-name: slide;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    margin-left: 10px; /* Ajoute une marge à gauche */
-    margin-right: 10px; /* Ajoute une marge à droite */
+     /* Empêche le débordement du contenu de l'élément */
+     /* Ajoute une marge à droite */
 }
 
 .slider-content img {
