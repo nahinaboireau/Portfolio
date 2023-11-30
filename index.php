@@ -45,6 +45,22 @@
         <!-- slider -->
         <section class="apropos">
             <h1 class="titre-apropo">A propos</h1>
+            <div class="photo-apropo">
+                <div class="caract">
+                    <div class="cercle-photo">
+
+                    </div>
+                    <p>Créative</p>
+
+                </div>
+            </div>
+
+            </div>
+            <!-- rendre l'image ronde -->
+            <!-- <div class="photo-apropo">
+                <img src="./images/image-accueil.jpg" alt="" class=accueil-image>
+            </div> -->
+            <br>
             <div class="division1">
 
                 <p class="paragraphe-apropo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam provident
@@ -57,13 +73,53 @@
                 </ul>
 
             </div>
-            <div class="slider">
-                <div class="slider-content">
-                    <img src="./images/image-accueil.jpg"><img src="./images/image-accueil.jpg"><img src="./images/image-accueil.jpg">
+            <p class="titre-competences">Compétences</p>
+            <div class="competences">
+                <div>
+                    <div class="carre1">
+
+                    </div>
+                    <p>lorem</p>
                 </div>
+                <div>
+                    <div class="carre2">
+
+                    </div>
+                    <p>lorem</p>
+                </div>
+                <div>
+                    <div class="carre3">
+
+                    </div>
+                    <p>lorem</p>
+                </div>
+                <div>
+                    <div class="carre4">
+
+                    </div>
+                    <p>lorem</p>
+                </div>
+                <div>
+                    <div class="carre5">
+
+                    </div>
+                    <p>lorem</p>
+                </div>
+                <div>
+                    <div class="carre6">
+
+                    </div>
+                    <p>lorem</p>
+                </div>
+
+                
+
+
             </div>
-                <br>
+
+
         </section>
+
     </main>
 
 
