@@ -51,7 +51,7 @@
                         <img src="./images/photo.png" alt="">
 
                     </div>
-                    <p>Créative</p>
+                    <p><img src="./images/pinceau.png" alt="" class="pinceau">Créative</p>
 
                 </div>
             </div>
@@ -70,47 +70,48 @@
                 <ul class="essentiel">
                     <li>20 ans</li>
                     <li>BUT MMI</li>
-                    <li>Champs-sur-Marne</li>
+                    <li>Champs
+                        <br>sur-Marne</li>
                 </ul>
 
             </div>
             <p class="titre-competences">Compétences</p>
             <div class="competences">
-                <div>
+                <div class="competences-associe">
                     <div class="carre1">
 
                     </div>
-                    <p>lorem</p>
-                </div>
-                <div>
+                    <p>Photographie</p>
+                </div >
+                <div class="competences-associe">
                     <div class="carre2">
 
                     </div>
-                    <p>lorem</p>
+                    <p>Cinéma</p>
                 </div>
-                <div>
+                <div class="competences-associe">
                     <div class="carre3">
 
                     </div>
-                    <p>lorem</p>
+                    <p>Graphisme</p>
                 </div>
-                <div>
+                <div class="competences-associe">
                     <div class="carre4">
 
                     </div>
-                    <p>lorem</p>
+                    <p>Musique</p>
                 </div>
-                <div>
+                <div class="competences-associe">
                     <div class="carre5">
 
                     </div>
-                    <p>lorem</p>
+                    <p>Infographie</p>
                 </div>
-                <div>
+                <div class="competences-associe">
                     <div class="carre6">
 
                     </div>
-                    <p>lorem</p>
+                    <p>Vidéo</p>
                 </div>
 
                 

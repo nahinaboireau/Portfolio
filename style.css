@@ -140,7 +140,6 @@ div.bordure {
 
 /* Pour ajouter un espace entre la puce et le texte de l'élément li */
 .boite-liste li::before {
-    
     content: '\2022';
     margin-right: 5px;
 }
@@ -161,6 +160,7 @@ div.bordure {
     margin-left:20px;
     margin-bottom:5px;
     font-size:0.8em;
+    
 }
 
 .division1{
@@ -174,13 +174,13 @@ div.bordure {
     margin-bottom:10px;  
 }
 
-.essentiel{
+.essentiel {
     font-size:0.7em;
     margin-right:10px;
+    padding-left:20px ;
+    text-align: justify;
     
 }
-
-/*image-apropos*/
 
 
 /* carré blanc dans une image */
@@ -202,6 +202,20 @@ div.bordure {
     place-items:center;
 }
 
+.caract p{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin:auto;
+    margin-top:10px;
+    color:#6C3E3E;
+}
+.pinceau{
+    width:12px;
+    height:20px;
+    margin-right:5px;
+}
+
 .carre1,
 .carre2,
 .carre3, 
@@ -213,23 +227,33 @@ div.bordure {
     height: 47px;
     border: 1px solid #6C3E3E;
     background: #FFF;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin:auto;
+    margin-top:10px;
+
 }
 
  .cercle-photo img{
-    
     display:flex;
     align-items:center;
     justify-content: center;
     margin:auto;
-    margin-top:10px;
+    margin-top:20px;
 } 
-.caract p{
-    font-size:1em;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    margin:auto;
-    margin-top:10px;
+
+.cercle-photo p{
+    font-size: 0.8em;
+}
+
+.competences-associe {
+    text-align: center; /* Aligne le texte au centre */
+}
+
+.competences-associe p {
+    font-size: 0.8em; 
+    /* Vous pouvez ajuster la taille de la police selon vos préférences */
 }
 
 
