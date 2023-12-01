@@ -48,6 +48,7 @@
             <div class="photo-apropo">
                 <div class="caract">
                     <div class="cercle-photo">
+                        <img src="./images/photo.png" alt="">
 
                     </div>
                     <p>Créative</p>
