@@ -168,15 +168,29 @@
         </section>
         <section class="aperçu">
             <h1 class="titre-aperçu">Aperçu projets</h1>
-            <p class="paragraphe-aperçu">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab assumenda culpa repudiandae debitis illum
+            <p class="paragraphe-aperçu">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab assumenda culpa
+                repudiandae debitis illum
                 quidem. Suscipit, repellendus! Voluptate officiis illo assumenda placeat voluptas, quisquam quidem,
                 tempora, aliquam doloribus itaque distinctio.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab assumenda culpa repudiandae debitis illum
+                quidem. Suscipit, repellendus! Voluptate.
             </p>
             <!-- slider -->
-            <div class="boite-aperçu">
-
-
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide">
+                        <img src="./images/image-accueil.jpg" alt="Image 1">
+                    </div>
+                    <div class="slide">
+                        <img src="./images/image-accueil.jpg" alt="Image 2">
+                    </div>
+                    <div class="slide">
+                        <img src="./images/image-accueil.jpg" alt="Image 3">
+                    </div>
+                </div>
             </div>
+
+
 
         </section>
 
@@ -185,7 +199,7 @@
 
 
 
-
+    <script src="script.js"></script>
 </body>
 
 </html>
