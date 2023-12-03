@@ -3,21 +3,19 @@ document.addEventListener("DOMContentLoaded", function() {
     const slides = document.querySelectorAll(".slide");
     let counter = 0;
   
-    function nextSlide() {
-      slides.forEach((slide, index) => {
-        if (index === counter) {
-          slide.style.opacity = 1;
-        } else {
-          slide.style.opacity = 0;
-        }
-      });
-  
-      counter++;
-      if (counter === 3) {
-        counter = 0;
-      }
+    function updateSlider() {
+      const transformValue = -counter * 320; //   largeur de chaque diapo
+      slider.style.transform = `translateX(${transformValue}px)`;
     }
   
-    setInterval(nextSlide, 3000); // Auto transition every 3 seconds
+    function nextSlide() {
+      counter++;
+      if (counter === slides.length) {
+        counter = 0;
+      }
+      updateSlider();
+    }
+  
+    setInterval(nextSlide, 3000); // transition 3sec
   });
   
