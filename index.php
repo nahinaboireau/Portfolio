@@ -125,11 +125,15 @@
         <section class="cv">
             <h1 class="titre-cv">CV</h1>
             <div class="cv-video">
-                <iframe src="https://www.youtube.com/embed/0bxNTe1TzYw" title="MON CV VIDÉO ! - Timothée Falcon"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/0bxNTe1TzYw" title="MON CV VIDÉO ! - Timothée Falcon"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
             </div>
+            <button class="button-cv">Téléchargement CV</button>
+
 
         </section>
 
