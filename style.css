@@ -53,6 +53,7 @@ nav {
     grid-column-gap: 0px;
     grid-row-gap: 10px;
     height: 100vh;
+    margin-bottom:50px;
    
 }
 
@@ -149,12 +150,14 @@ div.bordure {
 /* A propos */
 .apropos{
     height:fit-content;
+    margin-bottom:50px;
 }
 
 .titre-apropo{
     margin-right:20px;
     margin-left:20px; 
-    margin-bottom:5px; 
+    margin-bottom:5px;
+    text-align:center; 
 }
 .paragraphe-apropo{
     margin-right:20px;
@@ -261,9 +264,12 @@ div.bordure {
 /*CV*/
 .cv{
     height: fit-content;
+    margin-bottom:50px;
+   
     
 }
 .titre-cv{
+    text-align:center;
     margin-right:20px;
     margin-left:20px; 
     margin-bottom:5px; 
@@ -280,7 +286,7 @@ div.bordure {
     justify-content: center;
     width: 100%;
     height: 100%;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 .cv-video iframe {
@@ -289,12 +295,51 @@ div.bordure {
     margin: 0 auto; /* Utiliser "0 auto" pour centrer horizontalement */
 }
 
-.button-cv button{
+
+.button-cv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top:15px; 
+}
+
+.button-cv a {
+    border-radius: 38px;
+    background:#6C3E3E;
+    padding: 8px 15px; 
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size:0.8em;
+}
+
+/* .cv-ecrit{
     display:flex;
     align-items:center;
-    justify-content: center;
-    border-radius: 38px;
-    background: #6C3E3E;
-    width: 248px;
-    height: 20px;
+    justify-content:center;
+    margin-top:15px;
+    margin-bottom:10px;
+    text-align:center;
+} */
+
+.en-video {
+    margin-left: 5px;
 }
+
+/* section apercu */
+.titre-aperçu{
+    text-align:center;
+    margin-right:20px;
+    margin-left:20px; 
+    margin-bottom:5px; 
+}
+
+.paragraphe-aperçu{
+    margin-right:20px;
+    margin-left:20px;
+    margin-bottom:5px;
+    font-size:0.8em;
+    
+}
+
