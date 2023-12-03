@@ -180,15 +180,19 @@
                 <div class="slider">
                     <div class="slide">
                         <img src="./images/image-accueil.jpg" alt="Image 1">
+                        <span class="image-number">Résaweb /01</span>
                     </div>
                     <div class="slide">
                         <img src="./images/image-accueil.jpg" alt="Image 2">
+                        <span class="image-number">Dataviz /02</span>
                     </div>
                     <div class="slide">
                         <img src="./images/image-accueil.jpg" alt="Image 3">
+                        <span class="image-number">Interview /03</span>
                     </div>
                 </div>
             </div>
+
 
 
 
