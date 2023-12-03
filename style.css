@@ -289,7 +289,7 @@ div.bordure {
     margin: 0 auto; /* Utiliser "0 auto" pour centrer horizontalement */
 }
 
-.button-cv{
+.button-cv button{
     display:flex;
     align-items:center;
     justify-content: center;
