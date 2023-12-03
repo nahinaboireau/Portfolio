@@ -14,7 +14,7 @@
 
 <body>
     <nav>
-        <img src="./images/logo-NB.png" alt="" class="logo">
+        <img src="./images/logo-NB.svg" alt="" class="logo">
         <div class="rubrique">
             <a href="">A propos</a>
             <a href="">Projets</a>
@@ -48,7 +48,7 @@
             <div class="photo-apropo">
                 <div class="caract">
                     <div class="cercle-photo">
-                        <img src="./images/photo.png" alt="">
+                        <img src="./images/photo.svg" alt="">
 
                     </div>
                     <p>
@@ -191,12 +191,37 @@
                         <span class="image-number">Interview /03</span>
                     </div>
                 </div>
+                <div class="button-savoir">
+
+                    <a href="">En savoir + </a>
+
+                </div>
             </div>
 
 
 
 
+
         </section>
+        <footer class="footer">
+        <img src="./images/logo-NB.svg" alt="retour a l'accueil" class="logo">
+            <div class="footer-content">
+                <div>
+                    <p>Nahina Boireau - Portfolio &copy; 2023</p>
+                    <p>Tout droit réservés</p>
+                    <a href="">Mention légales</a><br>
+                </div>
+                <div class="reseaux-sociaux">
+                    <a href=""><img src="./images/linkedin1.svg" alt=""></a>
+                    <a href=""><img src="./images/linkedin1.svg" alt=""></a>
+                    <a href=""><img src="./images/linkedin1.svg" alt=""></a>
+
+                </div>
+
+            </div>
+        </footer>
+
+
 
     </main>
 
