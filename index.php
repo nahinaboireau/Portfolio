@@ -82,7 +82,7 @@
             <div class="competences">
                 <div class="competences-associe">
                     <div class="carre1">
-
+                        <img src="./images/appareil.svg" alt="">
                     </div>
                     <p>Photographie</p>
                 </div>
@@ -204,7 +204,7 @@
 
         </section>
         <footer class="footer">
-        <img src="./images/logo-NB.svg" alt="retour a l'accueil" class="logo">
+            <img src="./images/logo-NB.svg" alt="retour a l'accueil" class="logo">
             <div class="footer-content">
                 <div>
                     <p>Nahina Boireau - Portfolio &copy; 2023</p>
