@@ -94,7 +94,7 @@
                 </div>
                 <div class="competences-associe">
                     <div class="carre3">
-
+                        <img src="./images/pinceau.svg" alt="">
                     </div>
                     <p>Graphisme</p>
                 </div>
@@ -106,13 +106,19 @@
                 </div>
                 <div class="competences-associe">
                     <div class="carre5">
-
+                        <img src="./images/infographie.svg" alt="">
                     </div>
                     <p>Infographie</p>
                 </div>
                 <div class="competences-associe">
                     <div class="carre6">
-
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="35" viewBox="0 0 48 35" fill="none">
+                            <circle cx="11" cy="7" r="6.5" stroke="#6C3E3E" />
+                            <circle cx="28" cy="7" r="6.5" stroke="#6C3E3E" />
+                            <rect x="4.5" y="16.5" width="30" height="17" stroke="#6C3E3E" />
+                            <path d="M36 28V21.5L47 16V34L36 28Z" stroke="#6C3E3E" />
+                            <rect x="0.5" y="19.5" width="2" height="11" stroke="#6C3E3E" />
+                        </svg>
                     </div>
                     <p>Vidéo</p>
                 </div>
@@ -125,19 +131,9 @@
 
         </section>
         <section class="cv">
-            <h1 class="titre-cv">CV</h1>
+            <h1 class="titre-cv">CV Vidéo</h1>
             <div class="cv-video">
                 <div class="iframe-container">
-                    <div>
-                        <p>Vidéo<svg xmlns="http://www.w3.org/2000/svg" width="22" height="15" viewBox="0 0 47 34"
-                                fill="none" class="en-video">
-                                <circle cx="11" cy="7" r="7" fill="#6C3E3E" />
-                                <circle cx="28" cy="7" r="7" fill="#6C3E3E" />
-                                <rect x="4" y="16" width="31" height="18" fill="#6C3E3E" />
-                                <path d="M36 28V21.5L47 16V34L36 28Z" fill="#6C3E3E" />
-                                <rect y="19" width="3" height="12" fill="#6C3E3E" />
-                            </svg></p>
-                    </div>
 
                     <iframe src="https://www.youtube.com/embed/0bxNTe1TzYw" title="MON CV VIDÉO ! - Timothée Falcon"
                         frameborder="0"
