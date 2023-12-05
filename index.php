@@ -129,16 +129,16 @@
                 </div>
                 <div class="competences-associe">
                     <div class="carre">
-                        <svg width="57" height="40" viewBox="0 0 57 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="17" cy="7" r="5.85" stroke="#6C3E3E" stroke-width="2.3" />
-                            <circle cx="34" cy="7" r="5.85" stroke="#6C3E3E" stroke-width="2.3" />
-                            <rect x="11.15" y="17.15" width="28.7" height="15.7" stroke="#6C3E3E" stroke-width="2.3" />
-                            <path d="M44 28V21.5L55 16V34L44 28Z" fill="#6C3E3E" stroke="#6C3E3E" stroke-width="2.3" />
-                            <rect x="1.15" y="20.15" width="4.7" height="9.7" fill="#6C3E3E" stroke="#6C3E3E"
+                        <svg width="51" height="40" viewBox="0 0 51 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="11" cy="7" r="5.85" stroke="#6C3E3E" stroke-width="2.3" />
+                            <circle cx="28" cy="7" r="5.85" stroke="#6C3E3E" stroke-width="2.3" />
+                            <rect x="5.15" y="17.15" width="28.7" height="15.7" fill="#6C3E3E" stroke="#6C3E3E"
                                 stroke-width="2.3" />
-                            <rect x="17" y="37" width="18" height="2" fill="#6C3E3E" stroke="#6C3E3E"
+                            <path d="M38 28V21.5L49 16V34L38 28Z" stroke="#6C3E3E" stroke-width="2.3" />
+                            <rect x="11" y="37" width="18" height="2" fill="#6C3E3E" stroke="#6C3E3E"
                                 stroke-width="2" />
                         </svg>
+
 
 
                     </div>
