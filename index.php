@@ -81,44 +81,66 @@
             <p class="titre-competences">Compétences</p>
             <div class="competences">
                 <div class="competences-associe">
-                    <div class="carre1">
+                    <div class="carre">
                         <img src="./images/appareil.svg" alt="">
                     </div>
                     <p>Photographie</p>
                 </div>
                 <div class="competences-associe">
-                    <div class="carre2">
+                    <div class="carre">
 
                     </div>
                     <p>Cinéma</p>
                 </div>
                 <div class="competences-associe">
-                    <div class="carre3">
-                        <img src="./images/pinceau.svg" alt="">
+                    <div class="carre">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="62" viewBox="0 0 41 62" fill="none">
+                            <path
+                                d="M17.5002 25.1L17.5896 25.1L17.6751 25.074C18.0528 24.9589 18.3922 25.0025 18.7859 25.2979C19.2189 25.6229 19.7125 26.2534 20.2818 27.3352C21.4163 29.4908 22.7204 33.1754 24.4746 38.9339C26.2289 44.6925 27.7779 49.8835 28.6065 53.7193C29.0221 55.6429 29.2468 57.184 29.2378 58.2696C29.2333 58.8151 29.1695 59.198 29.0724 59.4436C28.9806 59.6759 28.8866 59.726 28.829 59.7435C28.7689 59.7618 28.6561 59.7719 28.4404 59.6284C28.2148 59.4782 27.9385 59.1966 27.619 58.75C26.9829 57.8609 26.2781 56.4661 25.5183 54.6492C24.0031 51.0264 22.3289 45.8745 20.5763 40.1215C19.9518 38.0712 19.3782 36.259 18.8731 34.6632C17.9508 31.7494 17.2568 29.5568 16.8975 27.9529C16.615 26.692 16.5783 25.9407 16.7059 25.5275C16.7603 25.3514 16.8355 25.2685 16.9186 25.2169C17.016 25.1566 17.1897 25.1 17.5002 25.1Z"
+                                stroke="#6C3E3E" stroke-width="1.2" />
+                            <path
+                                d="M20.5992 18.3322C20.2927 20.1218 20.0185 21.4346 19.7336 22.3935C19.4456 23.3629 19.1652 23.9034 18.8864 24.2071C18.6391 24.4765 18.364 24.5918 17.9489 24.6143C17.4904 24.6391 16.9176 24.5484 16.1013 24.4086C14.8661 24.1971 13.6934 22.8685 12.9864 20.4574C12.294 18.0966 12.12 14.897 12.7224 11.3792C13.368 7.60851 12.211 4.75274 11.338 2.95503C11.2295 2.73159 11.1251 2.52401 11.0302 2.33549L11.0284 2.33185C10.9335 2.14312 10.8495 1.97614 10.7769 1.82506C10.7168 1.69972 10.6701 1.59621 10.6346 1.51114C10.692 1.51804 10.757 1.52754 10.8304 1.54012C11.1173 1.58924 11.518 1.75565 12.0175 2.06997C12.5088 2.37913 13.061 2.80924 13.6458 3.34406C14.8151 4.4135 16.0833 5.87299 17.2202 7.54163C19.5152 10.9103 21.1734 14.9787 20.5992 18.3322ZM10.5401 1.21778C10.5401 1.21782 10.5403 1.21896 10.5403 1.22111C10.5401 1.21883 10.5401 1.21775 10.5401 1.21778Z"
+                                fill="#6C3E3E" stroke="#6C3E3E" stroke-width="1.2" />
+                        </svg>
                     </div>
                     <p>Graphisme</p>
                 </div>
                 <div class="competences-associe">
-                    <div class="carre4">
-
+                    <div class="carre">
+                        <img src="./images/musique.svg" alt="">
                     </div>
                     <p>Musique</p>
                 </div>
                 <div class="competences-associe">
-                    <div class="carre5">
-                        <img src="./images/infographie.svg" alt="">
+                    <div class="carre">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="73" height="78" viewBox="0 0 73 78" fill="none">
+                            <path
+                                d="M6 74V4C6 2.34315 7.34315 1 9 1H50.3836L66 18.6159V74C66 75.6569 64.6569 77 63 77H9C7.34315 77 6 75.6569 6 74Z"
+                                fill="white" />
+                            <path
+                                d="M66 18.6159V74C66 75.6569 64.6569 77 63 77H9C7.34315 77 6 75.6569 6 74V4C6 2.34315 7.34315 1 9 1H50.3836M66 18.6159L50.3836 1M66 18.6159H53.3836C51.7267 18.6159 50.3836 17.2728 50.3836 15.6159V1"
+                                stroke="#6C3E3E" stroke-width="2" />
+                            <path d="M14 30H58.5" stroke="#6C3E3E" stroke-width="2" />
+                            <path d="M14 46H58.5" stroke="#6C3E3E" stroke-width="2" />
+                            <path d="M14 60H58.5" stroke="#6C3E3E" stroke-width="2" />
+                        </svg>
                     </div>
                     <p>Infographie</p>
                 </div>
                 <div class="competences-associe">
-                    <div class="carre6">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="35" viewBox="0 0 48 35" fill="none">
-                            <circle cx="11" cy="7" r="6.5" stroke="#6C3E3E" />
-                            <circle cx="28" cy="7" r="6.5" stroke="#6C3E3E" />
-                            <rect x="4.5" y="16.5" width="30" height="17" stroke="#6C3E3E" />
-                            <path d="M36 28V21.5L47 16V34L36 28Z" stroke="#6C3E3E" />
-                            <rect x="0.5" y="19.5" width="2" height="11" stroke="#6C3E3E" />
+                    <div class="carre">
+                        <svg width="57" height="40" viewBox="0 0 57 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="17" cy="7" r="5.85" stroke="#6C3E3E" stroke-width="2.3" />
+                            <circle cx="34" cy="7" r="5.85" stroke="#6C3E3E" stroke-width="2.3" />
+                            <rect x="11.15" y="17.15" width="28.7" height="15.7" stroke="#6C3E3E" stroke-width="2.3" />
+                            <path d="M44 28V21.5L55 16V34L44 28Z" fill="#6C3E3E" stroke="#6C3E3E" stroke-width="2.3" />
+                            <rect x="1.15" y="20.15" width="4.7" height="9.7" fill="#6C3E3E" stroke="#6C3E3E"
+                                stroke-width="2.3" />
+                            <rect x="17" y="37" width="18" height="2" fill="#6C3E3E" stroke="#6C3E3E"
+                                stroke-width="2" />
                         </svg>
+
+
                     </div>
                     <p>Vidéo</p>
                 </div>

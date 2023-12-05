@@ -220,13 +220,7 @@ div.bordure {
     margin-right:5px;
 }
 
-.carre1,
-.carre2,
-.carre3, 
-.carre4,
-.carre5,
-.carre6{
-    
+.carre{
     width: 37px;
     height: 37px;
     border: none;
@@ -239,7 +233,7 @@ div.bordure {
 
 }
 
-.competences-associe .carre1 {
+.competences-associe .carre {
     width: 37px;
     height: 37px;
     border:none;
@@ -251,7 +245,7 @@ div.bordure {
     margin-top: 10px;
 }
 
-.competences-associe .carre1 img {
+.competences-associe .carre img{
     width: 100%;
     height: 100%;
 }
