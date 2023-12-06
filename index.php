@@ -88,7 +88,33 @@
                 </div>
                 <div class="competences-associe">
                     <div class="carre">
-
+                        <svg xmlns="http://www.w3.org/2000/svg" width="145" height="98" viewBox="0 0 145 98"
+                            fill="none">
+                            <circle cx="49" cy="49" r="46.5" stroke="#6C3E3E" stroke-width="5" />
+                            <circle cx="49.5" cy="49.5" r="37.5" fill="#6C3E3E" />
+                            <circle cx="49.5" cy="26.5" r="7.5" fill="white" />
+                            <circle cx="70.5" cy="39.5" r="7.5" fill="white" />
+                            <circle cx="70.5" cy="63.5" r="7.5" fill="white" />
+                            <circle cx="28.5" cy="63.5" r="7.5" fill="white" />
+                            <circle cx="28.5" cy="39.5" r="7.5" fill="white" />
+                            <circle cx="49.5" cy="48.5" r="3.5" fill="white" />
+                            <circle cx="49.5" cy="71.5" r="7.5" fill="white" />
+                            <path
+                                d="M130 16C113.925 12.8532 105.264 13.9787 91 25.5L96 47L91 71C108.242 53.5615 118.8 46.9476 141.5 49L130 16Z"
+                                stroke="#6C3E3E" stroke-width="4" />
+                            <path d="M93.5 31.5C106.827 23.1414 115.158 21.7137 131 23" stroke="#6C3E3E"
+                                stroke-width="4" />
+                            <path d="M94 55.1974C110.082 43.2922 121.336 38.7451 139.5 42" stroke="#6C3E3E"
+                                stroke-width="4" />
+                            <path d="M100 18L116 52" stroke="#6C3E3E" stroke-width="4" />
+                            <path d="M119.309 14.816L120.861 18.8029L122.414 22.7897" stroke="#6C3E3E"
+                                stroke-width="4" />
+                            <path d="M110.417 16L112.209 19.5L114 23" stroke="#6C3E3E" stroke-width="4" />
+                            <path d="M120.385 42L122.176 45.5L123.967 49" stroke="#6C3E3E" stroke-width="4" />
+                            <path d="M92.3848 25L94.176 28.5L95.9673 32" stroke="#6C3E3E" stroke-width="4" />
+                            <path d="M104.385 49L106.176 52.5L107.967 56" stroke="#6C3E3E" stroke-width="4" />
+                            <path d="M128.385 41L130.176 44.5L131.967 48" stroke="#6C3E3E" stroke-width="4" />
+                        </svg>
                     </div>
                     <p>Cinéma</p>
                 </div>
