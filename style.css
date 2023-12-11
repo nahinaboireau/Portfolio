@@ -1,24 +1,12 @@
-*,
-*::after,
-*::before {
-    box-sizing: border-box;
-}
-
 @media screen and (max-width: 320px) {
-    body {
-        background: white;
-        margin: 0;
-        font-family: 'Marcellus', serif;
-
-
-    }
-
+    /* ... (Styles pour les écrans de 320px) */
     nav {
         background-color: #6C3E3E;
         display: flex;
         flex-direction: column;
     }
-
+    /* ... Autres styles pour les écrans de 320px */
+    
     .logo {
         width: 20%;
         display: flex;
@@ -139,6 +127,7 @@
         margin-right: 10px;
     }
 
+    /* Pour ajouter un espace entre la puce et le texte de l'élément li */
     .boite-liste li::before {
         content: '\2022';
         margin-right: 5px;
@@ -451,63 +440,37 @@
         height: 100%;
         object-fit: contain;
     }
+}
 
+@media screen and (min-width: 321px) and (max-width: 1440px) {
+    /* Styles spécifiques pour les écrans entre 321px et 1440px inclus */
+    nav {
+        background-color: #6C3E3E;
+        display: flex;
+        flex-direction: row;
+    }
 
+    .boite-image img {
+        max-width: 100%; 
+        height: auto; 
+        object-fit: cover;
+        object-position: center;
+    }
 
 }
 
-
-
-/* Ajouter la boîte-sizing pour tous les éléments */
-*, *::after, *::before {
+/* Styles par défaut qui s'appliqueront à tous les écrans, y compris ceux de plus de 1440px */
+*,
+*::after,
+*::before {
     box-sizing: border-box;
 }
 
-/* Styles par défaut */
 body {
     background: white;
     margin: 0;
     font-family: 'Marcellus', serif;
 }
+/* ... Autres styles par défaut */
 
 
-/* Format écran 1440px */
-@media screen and (min-width: 1440px) {
-    nav {
-        background-color: #6C3E3E;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .logo {
-        width: 15%; /* Ajustez la largeur du logo pour les écrans de 1440px */
-        padding-top: 10px; /* Ajustez la marge pour les écrans de 1440px */
-    }
-
-    .rubrique a {
-        font-size: 1em; /* Ajustez la taille de la police pour les écrans de 1440px */
-    }
-
-    .header {
-        grid-template-rows: 1fr 5fr; /* Ajustez la disposition des lignes pour les écrans de 1440px */
-        margin-bottom: 70px; /* Ajustez la marge pour les écrans de 1440px */
-    }
-
-    .boite-tout {
-        margin-top: 30px; /* Ajustez la marge pour les écrans de 1440px */
-    }
-
-    .boite-petit {
-        margin-top: 40px; /* Ajustez la marge pour les écrans de 1440px */
-    }
-
-    .nom {
-        font-size: 1.5em; /* Ajustez la taille de la police pour les écrans de 1440px */
-    }
-
-    .portfolio {
-        font-size: 1em; /* Ajustez la taille de la police pour les écrans de 1440px */
-    }
-
-    /* Continuez à ajuster d'autres styles selon les besoins pour les écrans de 1440px */
-}
