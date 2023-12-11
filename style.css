@@ -4,444 +4,510 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 320px) {
+    body {
+        background: white;
+        margin: 0;
+        font-family: 'Marcellus', serif;
 
+
+    }
+
+    nav {
+        background-color: #6C3E3E;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 20%;
+        display: flex;
+        margin: auto;
+        padding-top: 5px;
+    }
+
+    .rubrique {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        gap: 5px;
+        height: 100%;
+
+    }
+
+    .rubrique a {
+        color: white;
+        font-size: 0.8em;
+        text-decoration: none;
+    }
+
+
+    .header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 6fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 10px;
+        height: 100vh;
+        margin-bottom: 50px;
+
+    }
+
+
+    div.boite-tout {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    div.boite-petit {
+        display: flex;
+        flex-direction: column;
+        height: 48%;
+        padding-right: 10px;
+        margin-top: 25px;
+
+
+
+    }
+
+    div.bordure {
+        background-color: #6C3E3E;
+        border-radius: 36px;
+        width: 100%;
+        height: 8px;
+        margin: 0;
+
+
+    }
+
+
+
+    .nom {
+        color: #6C3E3E;
+        font-family: 'Marcellus', serif;
+        font-size: 1.1em;
+        display: flex;
+        margin-bottom: 0;
+    }
+
+
+    .portfolio {
+        color: #6C3E3E;
+        font-family: 'Marcellus', serif;
+        font-size: 0.6em;
+        display: flex;
+        margin: 0;
+
+
+
+    }
+
+    .boite-image {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .boite-image img {
+        width: 90%;
+        height: 90%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .boite-liste ul {
+        padding: 0;
+        margin: 0;
+        font-size: 0.9em;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .boite-liste li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    .boite-liste li::before {
+        content: '\2022';
+        margin-right: 5px;
+    }
+
+
+    /* A propos */
+    .apropos {
+        height: fit-content;
+        margin-bottom: 50px;
+    }
+
+    .titre-apropo {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .paragraphe-apropo {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        font-size: 0.8em;
+
+    }
+
+    .division1 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        place-items: center;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .essentiel {
+        font-size: 0.7em;
+        margin-right: 10px;
+        padding-left: 20px;
+        text-align: justify;
+
+    }
+
+
+    /* carré blanc dans une image */
+    .titre-competences {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .competences {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin-top: 20px;
+        place-items: center;
+    }
+
+    .caract p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+        color: #6C3E3E;
+    }
+
+    .pinceau {
+        width: 12px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .carre {
+        width: 37px;
+        height: 37px;
+        border: none;
+        background: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+
+    }
+
+    .competences-associe .carre {
+        width: 37px;
+        height: 37px;
+        border: none;
+        background: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .competences-associe .carre img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .cercle-photo img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .cercle-photo p {
+        font-size: 0.8em;
+    }
+
+    .competences-associe {
+        text-align: center;
+        /* Aligne le texte au centre */
+    }
+
+    .competences-associe p {
+        font-size: 0.8em;
+        /* Vous pouvez ajuster la taille de la police selon vos préférences */
+    }
+
+
+    /*CV*/
+    .cv {
+        height: fit-content;
+        margin-bottom: 50px;
+
+
+    }
+
+    .titre-cv {
+        text-align: center;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+
+    .cv-video .iframe-container {
+        margin: auto;
+    }
+
+    .cv-video {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .cv-video iframe {
+        width: 100%;
+        /* Ajustez la largeur selon vos besoins */
+        height: 150px;
+        /* Ajustez la hauteur selon vos besoins */
+        margin: 0 auto;
+        /* Utiliser "0 auto" pour centrer horizontalement */
+    }
+
+
+    .button-cv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .button-cv a {
+        border-radius: 38px;
+        background: #6C3E3E;
+        padding: 8px 15px;
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 0.8em;
+    }
+
+
+    .en-video {
+        margin-left: 5px;
+    }
+
+    /* section apercu */
+    .titre-aperçu {
+        text-align: center;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+
+    .paragraphe-aperçu {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        font-size: 0.8em;
+
+    }
+
+    /* slider */
+    .slider-container {
+        max-width: 100%;
+        overflow: hidden;
+        margin: 50px auto;
+    }
+
+    .slider {
+        display: flex;
+        width: 300%;
+        /* 3 images * 100% each */
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .slide {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        /* Ajustez la hauteur selon vos besoins */
+        overflow: hidden;
+    }
+
+    .slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    .image-number {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        color: #6C3E3E;
+        font-size: 1.2em;
+        background-color: white;
+        padding: 5px;
+
+    }
+
+    .button-savoir {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .button-savoir a {
+        border-radius: 38px;
+        background: #6C3E3E;
+        padding: 8px 15px;
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 0.8em;
+    }
+
+
+    .footer {
+        background-color: #6C3E3E;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .footer-content p {
+        font-size: 0.8em;
+    }
+
+    .footer-content a {
+        font-size: 0.8em;
+        color: white;
+        text-decoration: none;
+    }
+
+    .reseaux-sociaux {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .reseaux-sociaux a {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .reseaux-sociaux img {
+
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+
+
+}
+
+
+
+/* Ajouter la boîte-sizing pour tous les éléments */
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+/* Styles par défaut */
 body {
     background: white;
     margin: 0;
     font-family: 'Marcellus', serif;
-
-
-}
-
-/* format téléphone /* 320 x 480 px */
-nav {
-    background-color: #6C3E3E;
-    display: flex;
-    flex-direction: column;
-}
-
-.logo {
-    width: 20%;
-    display: flex;
-    margin: auto;
-    padding-top: 5px;
-}
-
-.rubrique {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 10px;
-    padding-top: 5px;
-    gap: 5px;
-    height: 100%;
-
-}
-
-.rubrique a {
-    color: white;
-    font-size: 0.8em;
-    text-decoration: none;
 }
 
 
-.header {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 6fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 10px;
-    height: 100vh;
-    margin-bottom:50px;
-   
+/* Format écran 1440px */
+@media screen and (min-width: 1440px) {
+    nav {
+        background-color: #6C3E3E;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 15%; /* Ajustez la largeur du logo pour les écrans de 1440px */
+        padding-top: 10px; /* Ajustez la marge pour les écrans de 1440px */
+    }
+
+    .rubrique a {
+        font-size: 1em; /* Ajustez la taille de la police pour les écrans de 1440px */
+    }
+
+    .header {
+        grid-template-rows: 1fr 5fr; /* Ajustez la disposition des lignes pour les écrans de 1440px */
+        margin-bottom: 70px; /* Ajustez la marge pour les écrans de 1440px */
+    }
+
+    .boite-tout {
+        margin-top: 30px; /* Ajustez la marge pour les écrans de 1440px */
+    }
+
+    .boite-petit {
+        margin-top: 40px; /* Ajustez la marge pour les écrans de 1440px */
+    }
+
+    .nom {
+        font-size: 1.5em; /* Ajustez la taille de la police pour les écrans de 1440px */
+    }
+
+    .portfolio {
+        font-size: 1em; /* Ajustez la taille de la police pour les écrans de 1440px */
+    }
+
+    /* Continuez à ajuster d'autres styles selon les besoins pour les écrans de 1440px */
 }
-
-
-div.boite-tout {
-    display: flex;
-    justify-content: center;
-    align-items: center;
- 
-    
-    
-}
-
-div.boite-petit {
-    display: flex;
-    flex-direction: column;
-    height: 48%;
-    padding-right: 10px;
-    margin-top: 25px;
-
-  
-
-}
-
-div.bordure {
-    background-color: #6C3E3E;
-    border-radius: 36px;
-    width: 100%;
-    height: 8px;
-    margin: 0;
-
-
-}
-
-
-
-.nom {
-    color: #6C3E3E;
-    font-family: 'Marcellus', serif;
-    font-size: 1.1em;
-    display: flex;
-    margin-bottom: 0;
-}
-
-
-.portfolio {
-    color: #6C3E3E;
-    font-family: 'Marcellus', serif;
-    font-size: 0.6em;
-    display: flex;
-    margin:0;
-    
-
-
-}
-
-.boite-image {
-    width: 100%;
-    height: 100%;
-    display:flex;
-    justify-content: center;
-
-}
-
-.boite-image img {
-    width: 90%;
-    height: 90%;
-    object-fit: cover;
-    object-position: center;
-}
-
-.boite-liste ul {
-    padding:0;
-    margin:0;
-    font-size:0.9em;
-    display:flex;
-    justify-content: center;
-   width:100%;
-   height:100%;
-}
-
-.boite-liste li {
-    display: inline;
-    margin-right: 10px;
-}
-
-/* Pour ajouter un espace entre la puce et le texte de l'élément li */
-.boite-liste li::before {
-    content: '\2022';
-    margin-right: 5px;
-}
-
-
-/* A propos */
-.apropos{
-    height:fit-content;
-    margin-bottom:50px;
-}
-
-.titre-apropo{
-    margin-right:20px;
-    margin-left:20px; 
-    margin-bottom:5px;
-    text-align:center; 
-}
-.paragraphe-apropo{
-    margin-right:20px;
-    margin-left:20px;
-    margin-bottom:5px;
-    font-size:0.8em;
-    
-}
-
-.division1{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    place-items: center;
-    margin-top:0;
-    margin-bottom:10px;  
-}
-
-.essentiel {
-    font-size:0.7em;
-    margin-right:10px;
-    padding-left:20px ;
-    text-align: justify;
-    
-}
-
-
-/* carré blanc dans une image */
-.titre-competences{
-    margin-right:20px;
-    margin-left:20px; 
-    margin-bottom:5px; 
-    font-size:1em;
-    text-align:center;
-}
-
-.competences{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    margin-top:20px;
-    place-items:center;
-}
-
-.caract p{
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    margin:auto;
-    margin-top:10px;
-    color:#6C3E3E;
-}
-.pinceau{
-    width:12px;
-    height:20px;
-    margin-right:5px;
-}
-
-.carre{
-    width: 37px;
-    height: 37px;
-    border: none;
-    background: #FFF;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    margin:auto;
-    margin-top:10px;
-
-}
-
-.competences-associe .carre {
-    width: 37px;
-    height: 37px;
-    border:none;
-    background: #FFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    margin-top: 10px;
-}
-
-.competences-associe .carre img{
-    width: 100%;
-    height: 100%;
-}
-
-
- .cercle-photo img{
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    margin:auto;
-    margin-top:20px;
-} 
-
-.cercle-photo p{
-    font-size: 0.8em;
-}
-
-.competences-associe {
-    text-align: center; /* Aligne le texte au centre */
-}
-
-.competences-associe p {
-    font-size: 0.8em; 
-    /* Vous pouvez ajuster la taille de la police selon vos préférences */
-}
-
-
-/*CV*/
-.cv{
-    height: fit-content;
-    margin-bottom:50px;
-   
-    
-}
-.titre-cv{
-    text-align:center;
-    margin-right:20px;
-    margin-left:20px; 
-    margin-bottom:5px; 
-}
-
-.cv-video .iframe-container {
-    margin:auto;
-}
-
-.cv-video {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    margin-top: 20px;
-}
-
-.cv-video iframe {
-    width: 100%; /* Ajustez la largeur selon vos besoins */
-    height: 150px; /* Ajustez la hauteur selon vos besoins */
-    margin: 0 auto; /* Utiliser "0 auto" pour centrer horizontalement */
-}
-
-
-.button-cv {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top:15px; 
-}
-
-.button-cv a {
-    border-radius: 38px;
-    background:#6C3E3E;
-    padding: 8px 15px; 
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
-    font-size:0.8em;
-}
-
-
-.en-video {
-    margin-left: 5px;
-}
-
-/* section apercu */
-.titre-aperçu{
-    text-align:center;
-    margin-right:20px;
-    margin-left:20px; 
-    margin-bottom:5px; 
-}
-
-.paragraphe-aperçu{
-    margin-right:20px;
-    margin-left:20px;
-    margin-bottom:5px;
-    font-size:0.8em;
-    
-}
-
-/* slider */
-.slider-container {
-    max-width: 100%;
-    overflow: hidden;
-    margin: 50px auto;
-  }
-  
-  .slider {
-    display: flex;
-    width: 300%; /* 3 images * 100% each */
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .slide {
-    position: relative;
-    width: 100%;
-    height: 200px; /* Ajustez la hauteur selon vos besoins */
-    overflow: hidden;
-  }
-  
-  .slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    
-  }
-  
-  .image-number {
-    position: absolute;
-    bottom: 10px; 
-    right: 10px; 
-    color: #6C3E3E; 
-    font-size: 1.2em; 
-    background-color:white; 
-    padding: 5px; 
-    
-  }
-
-  .button-savoir {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top:15px; 
-}
-
-.button-savoir a{
-    border-radius: 38px;
-    background:#6C3E3E;
-    padding: 8px 15px; 
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
-    font-size:0.8em;
-}
-
-
-  .footer {
-    background-color:#6C3E3E;
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
-
-  .footer-content p{
-    font-size:0.8em;
-  }
-
-  .footer-content a {
-    font-size: 0.8em;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .reseaux-sociaux {
-    margin-top:20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  .reseaux-sociaux a {
-  
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    width: 30px;
-    height: 30px;
-  }
-
-  
-  .reseaux-sociaux img {
-    
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-  
