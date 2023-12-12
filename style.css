@@ -1,4 +1,20 @@
-@media screen and (max-width: 320px) {
+/* Styles par défaut qui s'appliqueront à tous les écrans, y compris ceux de plus de 1440px */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    margin: 0;
+    font-family: 'Marcellus', serif;
+}
+/* ... Autres styles par défaut */
+
+
+
+@media screen and (max-width: 1440px) {
     /* ... (Styles pour les écrans de 320px) */
     nav {
         background-color: #6C3E3E;
@@ -442,35 +458,41 @@
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 1440px) {
-    /* Styles spécifiques pour les écrans entre 321px et 1440px inclus */
+@media screen and (min-width: 768px) {
+    /* Ajoutez vos styles spécifiques pour l'écran de 1440px et plus ici */
+
     nav {
         background-color: #6C3E3E;
         display: flex;
         flex-direction: row;
+        align-items: center; /* Aligner verticalement les éléments au centre */
+        padding: 10px; /* Ajouter un peu de marge pour une meilleure apparence visuelle */
+        gap:100px;
     }
-
-    .boite-image img {
-        max-width: 100%; 
-        height: auto; 
-        object-fit: cover;
-        object-position: center;
+    
+    .logo {
+        display: flex;
+        flex-direction: flex-start;
+        width: 50px; 
+        margin-left:5px;
+         /* Ajouter une marge à droite pour créer de l'espacement */
     }
-
+    
+    
+    .rubrique {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end; 
+    }
+    
+    .rubrique a {
+        color: white;
+        font-size: 1em; 
+        text-decoration: none;
+        margin-right: 50px; 
+       
+    }
+    
 }
-
-/* Styles par défaut qui s'appliqueront à tous les écrans, y compris ceux de plus de 1440px */
-*,
-*::after,
-*::before {
-    box-sizing: border-box;
-}
-
-body {
-    background: white;
-    margin: 0;
-    font-family: 'Marcellus', serif;
-}
-/* ... Autres styles par défaut */
 
 
