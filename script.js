@@ -18,4 +18,14 @@ document.addEventListener("DOMContentLoaded", function() {
   
     setInterval(nextSlide, 3000); // transition 3sec
   });
-  
+
+
+
+
+  function scrollDown() {
+    // Utiliser la fonction scrollTo pour faire défiler vers le bas
+    window.scrollTo({
+        top: window.innerHeight,
+        behavior: 'smooth'
+    });
+}

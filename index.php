@@ -27,7 +27,7 @@
             <div class="boite-tout">
                 <div class="boite-petit">
                     <div class="bordure"></div>
-                    <p class="portfolio">Portfolio</p>
+                    <p class="portfolio">PORTFOLIO</p>
                 </div>
                 <h1 class="nom">NAHINA BOIREAU</h1>
             </div>
@@ -41,6 +41,8 @@
                     <li>Musicienne</li>
                 </ul>
             </div>
+            <button class="scroll-down-button" onclick="scrollDown()">Scroll Down</button>
+
         </section>
         <!-- slider -->
         <section class="apropos">
