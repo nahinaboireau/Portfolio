@@ -473,10 +473,6 @@ body {
 }
 
 
-/* Add this at the end of your existing CSS */
-
-
-
 @media screen and (min-width: 768px) {
     /* Ajoutez vos styles spécifiques pour l'écran de 1440px et plus ici */
 
@@ -527,7 +523,6 @@ body {
         margin-top:50px;
     }
 
-    /* Style pour la boîte principale */
     /* Style pour la boîte principale */
     div.boite-petit {
         display: flex;
