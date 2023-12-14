@@ -18,9 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     setInterval(nextSlide, 3000); // transition 3sec
   });
-
-
-
+  
 
   function scrollDown() {
     // Utiliser la fonction scrollTo pour faire défiler vers le bas
@@ -29,3 +27,6 @@ document.addEventListener("DOMContentLoaded", function() {
         behavior: 'smooth'
     });
 }
+
+
+

@@ -164,6 +164,7 @@ body {
         margin-left: 20px;
         margin-bottom: 5px;
         text-align: center;
+        font-size:2em;
     }
 
     .paragraphe-apropo {
@@ -222,11 +223,7 @@ body {
         color: #6C3E3E;
     }
 
-    .pinceau {
-        width: 12px;
-        height: 20px;
-        margin-right: 5px;
-    }
+  
 
     .carre {
         width: 37px;
@@ -524,7 +521,7 @@ body {
         grid-column-gap: 0px;
         grid-row-gap: 10px;
         height: 100vh;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         margin-top:50px;
     }
 
@@ -576,7 +573,347 @@ body {
         display: block;
     }
 
+
+    .boite-liste ul {
+        padding: 0;
+        margin: 0;
+        font-size: 1.2em;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .boite-liste li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    /* Pour ajouter un espace entre la puce et le texte de l'élément li */
+    .boite-liste li::before {
+        content: '\2022';
+        margin-right: 5px;
+    }
+
+
+
+    .apropos {
+        height: fit-content;
+        margin-bottom: 50px;
+        
+    }
+
+    .titre-apropo {
+        margin-right: 20px;
+        margin-left: 40px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .paragraphe-apropo {
+        margin-right: 20px;
+        margin-left: 40px;
+        margin-bottom: 5px;
+        font-size: 1.2em;
+
+    }
+
+    .cercle-photo img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 20px;
+        width:150px
+    }
+
+
+    .essentiel {
+        font-size: 1.2em;
+        margin-right: 10px;
+        padding-left: 20px;
+        text-align: justify;
+
+    }
     
+    .division1 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        place-items: center;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+
+    .titre-competences {
+        margin-top:50px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        font-size: 1.2em;
+        text-align: center;
+       color:#6C3E3E;
+       font-weight: bold; 
+    }
+
+    .competences {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin-top: 20px;
+        place-items: center;
+    }
+
+    .caract p {
+        font-size:1.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+        color: #6C3E3E;
+        font-weight: bold; 
+    }
+
+    
+
+    .carre {
+        width: 37px;
+        height: 37px;
+        border: none;
+        background: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+
+    }
+
+    .competences-associe .carre {
+        width: 67px;
+        height: 67px;
+        border: none;
+        background: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .competences-associe .carre img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .cercle-photo p {
+        font-size: 1.2em;
+    }
+
+    .competences-associe {
+        text-align: center;
+        /* Aligne le texte au centre */
+    }
+
+    .competences-associe p {
+        font-size: 1.2em;
+        /* Vous pouvez ajuster la taille de la police selon vos préférences */
+    }
+
+
+
+    /* section apercu */
+   
+    .titre-aperçu {
+        text-align: center;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        font-size:2em;
+    }
+
+    .paragraphe-aperçu {
+        margin-right: 20px;
+        margin-left: 40px;
+        margin-bottom: 5px;
+        font-size: 1.2em;
+
+    }
+
+
+    .cv {
+        height: fit-content;
+        margin-bottom: 50px;
+
+
+    }
+
+    .titre-cv {
+        text-align: center;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        font-size:2em;
+    }
+
+    .cv-video .iframe-container {
+        margin: auto;
+    }
+
+    .cv-video {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .cv-video iframe {
+        width: 600px;
+        /* Ajustez la largeur selon vos besoins */
+        height: 300px;
+        /* Ajustez la hauteur selon vos besoins */
+        margin: 0 auto;
+        /* Utiliser "0 auto" pour centrer horizontalement */
+    }
+
+
+    .button-cv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .button-cv a {
+        border-radius: 38px;
+        background: #6C3E3E;
+        padding: 15px 25px; /* Ajustez les valeurs de padding pour augmenter la taille du bouton */
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1em;
+    }
+    
+
+
+    .en-video {
+        margin-left: 5px;
+    }
+
+
+    .slider-container {
+        max-width: 70%;
+        overflow: hidden;
+        margin: 50px auto;
+    }
+    
+    .slider {
+        display: flex;
+        width: 300%;
+        /* 3 images * 100% each */
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .slide {
+        position: relative;
+        width: 100%;
+        height: 350px; /* Ajustez la hauteur selon vos besoins */
+        overflow: hidden;
+    }
+    
+    .slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+
+    .image-number {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        color: #6C3E3E;
+        font-size: 1.2em;
+        background-color: white;
+        padding: 5px;
+
+    }
+
+    .button-savoir {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .button-savoir a {
+        border-radius: 38px;
+        background: #6C3E3E;
+        padding: 15px 25px;
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1em;
+    }
+
+
+    .footer {
+        background-color: #6C3E3E;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .footer-content p {
+        font-size: 1em;
+    }
+
+    .footer-content a {
+        font-size: 1em;
+        color: white;
+        text-decoration: none;
+    }
+
+    .reseaux-sociaux {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px; /* Ajustez la valeur de gap selon vos besoins */
+    }
+    
+    .reseaux-sociaux a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .reseaux-sociaux img {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+    
+
+    .logo-footer{
+        width: 100px;
+        height: 100px;
+        margin-top:20px;
+
+    }
 
 }
 

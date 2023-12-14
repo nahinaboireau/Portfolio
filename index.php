@@ -54,7 +54,7 @@
 
                     </div>
                     <p>
-                        <!--<img src="./images/pinceau.png" alt="" class="pinceau">-->Créative
+                     Créative
                     </p>
 
                 </div>
@@ -70,7 +70,7 @@
 
                 <p class="paragraphe-apropo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam provident
                     dignissimos a accusantium reprehenderit sunt repudiandae ex est, debitis dicta eaque! Officia atque
-                    aut officiis nam laborum sunt dolore aliquid! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint labore repellat animi debitis perferendis dicta, neque a accusamus dolores. Ad dolorem expedita sit ipsam unde animi praesentium qui laudantium quos?</p>
+                    aut officiis nam laborum sunt dolore aliquid! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint labore repellat animi debitis perferendis dicta, neque a accusamus dolores. Ad dolorem expedita sit ipsam unde animi praesentium qui laudantium quos? lorem</p>
                 <ul class="essentiel">
                     <li>20 ans</li>
                     <li>BUT MMI</li>
@@ -250,7 +250,7 @@
 
         </section>
         <footer class="footer">
-            <img src="./images/logo-NB.svg" alt="retour a l'accueil" class="logo">
+            <img src="./images/logo-NB.svg" alt="retour a l'accueil" class="logo-footer">
             <div class="footer-content">
                 <div>
                     <p>Nahina Boireau - Portfolio &copy; 2023</p>
