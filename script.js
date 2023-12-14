@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let counter = 0;
   
     function updateSlider() {
-      const transformValue = -counter * 320; //   largeur de chaque diapo
+      const transformValue = -counter * 537; //   largeur de chaque diapo
       slider.style.transform = `translateX(${transformValue}px)`;
     }
   

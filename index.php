@@ -41,11 +41,11 @@
                     <li>Musicienne</li>
                 </ul>
             </div>
-            <button class="scroll-down-button" onclick="scrollDown()">Scroll Down</button>
+            <button class="scroll-down-button" onclick="scrollDown()" id="apropos"">Scroll Down</button>
 
         </section>
         <!-- slider -->
-        <section class="apropos">
+        <section class="apropos" id="apropos">
             <h1 class="titre-apropo">A propos</h1>
             <div class="photo-apropo">
                 <div class="caract">
