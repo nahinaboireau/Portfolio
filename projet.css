@@ -101,6 +101,7 @@ div.bordure {
 
 /*lien pour les catégories */
 .categorie {
+    margin-top:40px;
     margin-bottom: 20px;
 }
 
@@ -117,9 +118,11 @@ div.bordure {
     display: inline-block; /* Set display to inline-block for proper alignment */
 }
 
-.tous-projets{
-    margin-bottom:20px;
+.tous-projets {
+    margin-top:50px;
+    margin-bottom: 20px;
 }
+
 .projet-associe .carre {
     width: 300px;
     height: 300px;
@@ -128,6 +131,7 @@ div.bordure {
     justify-content: center;
     margin: auto;
     margin-top: 10px;
+    position: relative; /* Ajouté pour positionner les spans */
 }
 
 .projet-associe .carre img {
@@ -135,12 +139,23 @@ div.bordure {
     height: 100%;
 }
 
+.nom-projet1,
+.nom-projet2,
+.nom-projet3,
+.nom-projet4,
+.nom-projet5{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #6C3E3E;
+    font-size: 1.2em;
+    background-color: white;
+    padding: 5px;
+}
 
 
 
-
-
-
+ 
 /* paragraphe */
 p{
     margin-left:20px;
@@ -193,6 +208,12 @@ p{
     object-fit: contain;
 }
 
+.logo-footer{
+    width: 100px;
+    height: 100px;
+    margin-top:20px;
+
+}
 
 
 
