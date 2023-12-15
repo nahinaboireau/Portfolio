@@ -11,83 +11,197 @@ body {
 }
 
 
+/* nav */
+nav {
+    background-color: #6C3E3E;
+    display: flex;
+    flex-direction: column;
+}
 
 
-    /* ... (Styles pour les écrans de 320px) */
-    nav {
-        background-color: #6C3E3E;
-        display: flex;
-        flex-direction: column;
-    }
+.logo {
+    width: 20%;
+    display: flex;
+    margin: auto;
+    padding-top: 5px;
+}
 
-    /* ... Autres styles pour les écrans de 320px */
+.rubrique {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    gap: 5px;
+    height: 100%;
 
-    .logo {
-        width: 20%;
-        display: flex;
-        margin: auto;
-        padding-top: 5px;
-    }
+}
 
-    .rubrique {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 10px;
-        padding-top: 5px;
-        gap: 5px;
-        height: 100%;
+.rubrique a {
+    color: white;
+    font-size: 0.8em;
+    text-decoration: none;
+}
 
-    }
+/* intro */
 
-    .rubrique a {
-        color: white;
-        font-size: 0.8em;
-        text-decoration: none;
-    }
-
-    .footer {
-        background-color: #6C3E3E;
-        color: white;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .footer-content p {
-        font-size: 0.8em;
-    }
-
-    .footer-content a {
-        font-size: 0.8em;
-        color: white;
-        text-decoration: none;
-    }
-
-    .reseaux-sociaux {
-        margin-top: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .reseaux-sociaux a {
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 30px;
-        height: 30px;
-    }
+div.boite-tout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
 
 
-    .reseaux-sociaux img {
 
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-    }
+}
+
+div.boite-petit {
+    display: flex;
+    flex-direction: column;
+    height: 48%;
+    padding-right: 10px;
+    margin-top:10px;
+    
+
+
+
+}
+
+div.bordure {
+    background-color: #6C3E3E;
+    border-radius: 36px;
+    width: 100%;
+    height: 8px;
+    margin: 0;
+
+
+}
+
+
+
+.nom {
+    color: #6C3E3E;
+    font-family: 'Marcellus', serif;
+    font-size: 1.1em;
+    display: flex;
+    margin:0;
+    margin-top:10px;
+    
+}
+
+
+.portfolio {
+    color: #6C3E3E;
+    font-family: 'Marcellus', serif;
+    font-size: 0.6em;
+    display: flex;
+    margin: 0;
+}
+
+/*lien pour les catégories */
+.categorie {
+    margin-bottom: 20px;
+}
+
+.lien {
+    text-align: center;
+}
+
+.lien a {
+    text-decoration: none;
+    color: white;
+    padding: 10px; /* Add padding for better visual appearance */
+    margin: 5px; /* Add margin for spacing between links */
+    background-color: #6C3E3E;
+    display: inline-block; /* Set display to inline-block for proper alignment */
+}
+
+.tous-projets{
+    margin-bottom:20px;
+}
+.projet-associe .carre {
+    width: 300px;
+    height: 300px;
+    background:#6C3E3E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.projet-associe .carre img {
+    width: 100%;
+    height: 100%;
+}
+
+.nom-projet1,
+.nom-projet2,
+.nom-projet3,
+.nom-projet4,
+.nom-projet5{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #6C3E3E;
+    font-size: 1.2em;
+    background-color: white;
+    padding: 5px;
+
+}
+
+/* paragraphe */
+p{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+
+
+
+/* footer */
+.footer {
+    background-color: #6C3E3E;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-content p {
+    font-size: 0.8em;
+}
+
+.footer-content a {
+    font-size: 0.8em;
+    color: white;
+    text-decoration: none;
+}
+
+.reseaux-sociaux {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.reseaux-sociaux a {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+
+.reseaux-sociaux img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 
 
 
@@ -129,7 +243,7 @@ body {
 
     }
 
-    
+
     .footer {
         background-color: #6C3E3E;
         color: white;
@@ -152,9 +266,10 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 30px; /* Ajustez la valeur de gap selon vos besoins */
+        gap: 30px;
+        /* Ajustez la valeur de gap selon vos besoins */
     }
-    
+
     .reseaux-sociaux a {
         display: flex;
         align-items: center;
@@ -162,21 +277,19 @@ body {
         width: 30px;
         height: 30px;
     }
-    
+
     .reseaux-sociaux img {
         width: 50px;
         height: 50px;
         object-fit: contain;
     }
-    
 
-    .logo-footer{
+
+    .logo-footer {
         width: 100px;
         height: 100px;
-        margin-top:20px;
+        margin-top: 20px;
 
     }
 
 }
-
-
