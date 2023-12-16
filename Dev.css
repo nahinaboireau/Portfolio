@@ -47,6 +47,7 @@ nav {
 }
 
 
+
 /* intro */
 
 div.boite-tout {
@@ -71,7 +72,8 @@ div.boite-tout {
 
 
 .img-resaweb,
-.img-portrait-chinois {
+.img-portrait-chinois, 
+.img-dataviz {
     width: 87%; /* La largeur de l'image est définie à 100% de la largeur de son conteneur parent */
     height: auto; /* La hauteur est ajustée automatiquement pour conserver les proportions de l'image */
     display: block; /* Supprime l'espace sous l'image, ce qui peut être causé par l'affichage en ligne */
@@ -89,12 +91,14 @@ div.boite-tout {
 
 
 .resaweb, 
-.portrait-chinois{
+.portrait-chinois, 
+.dataviz{
     height: 100%;
 }
 
 .titre-resaweb,
-.titre-portrait-chinois{
+.titre-portrait-chinois,
+.titre-dataviz{
     color: #6C3E3E;
     font-family: 'Marcellus', serif;
     font-size: 1.2em;
@@ -105,61 +109,76 @@ div.boite-tout {
 
 
 .explication-resaweb,
-.explication-portrait {
+.explication-portrait,
+.explication-dataviz {
     margin-left:20px;
     margin-right:20px;
 }
 /* footer */
+
 .footer {
     background-color: #6C3E3E;
     color: white;
     text-align: center;
     padding: 10px;
-}
-
-.footer-content p {
-    font-size: 0.8em;
-}
-
-.footer-content a {
-    font-size: 0.8em;
-    color: white;
-    text-decoration: none;
-}
-
-.reseaux-sociaux {
-    margin-top: 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adjust the value of the gap according to your needs */
+    margin-bottom: -5px; /* Reduce margin-bottom to bring p and a closer */
+}
+
+.footer-content p, .footer-content a {
+    font-size: 0.9em;
+    margin: 5px 0; /* Add a margin to separate p and a vertically */
+}
+.reseaux-sociaux {
+    margin:auto;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Ajustez la valeur du gap selon vos besoins */
 }
 
 .reseaux-sociaux a {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 30px;
     height: 30px;
 }
 
-
 .reseaux-sociaux img {
-
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-.logo-footer{
-    width: 100px;
-    height: 100px;
-    margin-top:20px;
-
+.interieur-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+     /* Ajustez la valeur du gap selon vos besoins */
 }
 
 
+
+.interieur-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-footer {
+    width:20%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 0;
+}
 @media screen and (min-width: 768px) {
    
 
@@ -169,25 +188,20 @@ div.boite-tout {
         display: flex;
         flex-direction: row;
         align-items: center;
-        /* Aligner verticalement les éléments au centre */
         padding: 10px;
-        /* Ajouter un peu de marge pour une meilleure apparence visuelle */
         gap: 100px;
     }
-
+    
     .logo {
-        display: flex;
-        flex-direction: flex-start;
         width: 50px;
         margin-left: 5px;
-        /* Ajouter une marge à droite pour créer de l'espacement */
     }
-
+ 
     .rubrique {
         display: flex;
         flex-direction: row;
         align-items: flex-end;
-        margin-left: auto; /* Pousse les éléments vers la droite autant que possible */
+        margin-left: auto; /* Push the links to the right */
     }
     
     .rubrique a {
@@ -196,118 +210,105 @@ div.boite-tout {
         text-decoration: none;
         margin-right: 50px;
     }
-    
 
 
-
-    .footer {
-        background-color: #6C3E3E;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start; /* Align to the left */
-    }
-
-  
-
-    .footer-content {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 30px; /* Adjust the gap value as needed */
-    }
-
-    .footer-content p {
-        font-size: 1em;
-    }
-
-    .footer-content a {
-        font-size: 1em;
-        color: white;
-        text-decoration: none;
-        margin-left:30px;
-    }
-
-    .reseaux-sociaux {
-        margin:0;
+    .Dataviz, 
+    .resaweb,
+    .portrait-chinois{
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Set two equal columns */
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
         margin-left:50px;
-
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        gap: 30px; /* Adjust the gap value as needed */
+        margin-right:50px;
+        margin-bottom:50px;
+        height:100%;
     }
-
-    .reseaux-sociaux a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 30px;
-        height: 30px;
-    }
-
-    .reseaux-sociaux img {
-        width: 50px;
-        height: 50px;
-        object-fit: contain;
+   
+    
+    .img-dataviz,
+    .img-portrait-chinois,
+    .img-resaweb{
+        grid-column: 1; /* Place the image in the first column */
+        grid-row: 1; /* Place the image in the first row */
+        width: 90%; /* Ensure the image takes the full width of its grid cell */
+        margin:auto;
+        border-radius: 15px;;
+        
+      
     }
 
-    .footer {
-        background-color: #6C3E3E;
-        color: white;
-        text-align: center;
-        padding: 10px;
+
+    .intro-dev{
+        margin-left:100px;
+        margin-right:100px;
     }
     
-    .footer-content {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 30px; /* Adjust the gap value as needed */
-    }
-    
-    .footer-content p {
-        font-size: 1em;
-    }
-    
-    .footer-content a {
-        font-size: 1em;
-        color: white;
-        text-decoration: none;
-        margin-left: 30px;
-    }
-    
-    .interieur-footer {
-        display: flex;
-        align-items: center; /* Align items vertically at the center */
-        justify-content: center; /* Align items horizontally at the center */
-        flex-wrap: wrap; /* Allow items to wrap onto the next line if there's not enough space */
+    .titre-dataviz,
+    .titre-portrait-chinois,
+    .titre-resaweb{
+        margin-left:90px;
        
     }
-    
-    .interieur-footer p {
-        margin-left:50px;
-        margin-right:100px; /* Remove default margin to prevent extra space around paragraphs */
-        
-    }
-    
-    .interieur-footer a {
-        /* Add some top margin for the link, adjust as needed */
-        text-decoration: none;
-        color: inherit;
-    }
 
-    .logo-footer {
+    
+    .explication-dataviz,
+    .explication-portrait,
+    .explication-resaweb {
+        grid-column: 2; /* Place the text content in the second column */
+        grid-row: 1; /* Place the text content in the first row */
+        margin:auto;
+    }
+    
+
+
+    
+
+    .footer {
+        background-color: #6C3E3E;
         display: flex;
-        align-items: flex-start;
-        width: 100px;
-        height: 100px;
-        margin-top: 20px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        gap: 15px; /* Adjust the value of the gap according to your needs */
+    }
+    
+    .footer-content p,
+    .footer-content a {
+        font-size: 0.9em;
+        color: white;
+        text-decoration: none;
+        margin-left:20px;
+      /* Add margin-bottom to create space between p and a */
+    }
+    
+    .reseaux-sociaux {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .reseaux-sociaux a {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .logo-footer {
+        width: 70px; /* Ajustez la largeur selon vos besoins */
+        margin:auto;
+    }
+    
+    .interieur-footer{
+        display:flex;
+        flex-direction: row;
+      
+
     }
 }
 
