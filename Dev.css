@@ -12,6 +12,9 @@ body {
 
 
 /* nav */
+
+
+/* nav */
 nav {
     background-color: #6C3E3E;
     display: flex;
@@ -26,7 +29,7 @@ nav {
     padding-top: 5px;
 }
 
-.rubrique {
+.rubriques {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,12 +41,13 @@ nav {
 
 }
 
-.rubrique a {
+.rubriques a {
     color: white;
-    font-size: 0.6em;
+    font-size: 0.8em;
     text-decoration: none;
 }
 
+/* intro */
 
 div.boite-tout {
     display: flex;
@@ -54,8 +58,6 @@ div.boite-tout {
 
 
 }
-
-
 
 .projet {
     color: #6C3E3E;
