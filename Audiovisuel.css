@@ -101,7 +101,17 @@ div.boite-tout {
       margin-left:10px;
       margin-right:10px;
     }
-
+    
+    .podcast img {
+        width: 70%; /* ou toute autre valeur en pourcentage */
+        height: auto;
+        display: block; /* Pour résoudre des problèmes d'espacement supplémentaire si nécessaire */
+        margin: auto;
+    }
+    
+    
+    /* Ajoutez d'autres styles au besoin */
+    
 
 .footer {
     background-color: #6C3E3E;
