@@ -168,7 +168,7 @@ div.boite-tout {
 
 @media screen and (min-width: 768px) {
     /* Ajoutez vos styles spécifiques pour l'écran de 1440px et plus ici */
-
+    
     nav {
         background-color: #6C3E3E;
         display: flex;
@@ -187,23 +187,20 @@ div.boite-tout {
         margin-left: 5px;
         /* Ajouter une marge à droite pour créer de l'espacement */
     }
-
-
     .rubrique {
         display: flex;
         flex-direction: row;
         align-items: flex-end;
+        margin-left: auto; /* Pousse les éléments vers la droite autant que possible */
     }
-
+    
     .rubrique a {
         color: white;
         font-size: 1em;
         text-decoration: none;
         margin-right: 50px;
-
     }
-
-
+    
 
     .footer {
         background-color: #6C3E3E;
