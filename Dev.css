@@ -1,0 +1,306 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    margin: 0;
+    font-family: 'Marcellus', serif;
+}
+
+
+/* nav */
+nav {
+    background-color: #6C3E3E;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logo {
+    width: 20%;
+    display: flex;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.rubrique {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    gap: 5px;
+    height: 100%;
+
+}
+
+.rubrique a {
+    color: white;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+
+div.boite-tout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+
+
+
+}
+
+
+
+.projet {
+    color: #6C3E3E;
+    font-family: 'Marcellus', serif;
+    font-size: 1.1em;
+    display: flex;
+    margin:0;
+    margin-top:10px;
+    
+}
+
+
+.img-resaweb {
+    width: 87%; /* La largeur de l'image est définie à 100% de la largeur de son conteneur parent */
+    height: auto; /* La hauteur est ajustée automatiquement pour conserver les proportions de l'image */
+    display: block; /* Supprime l'espace sous l'image, ce qui peut être causé par l'affichage en ligne */
+    max-width: 100%; /* Pour s'assurer que l'image ne dépasse pas sa taille originale */
+    margin-left:20px;
+}
+
+
+
+.rubrique a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.intro-dev{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+
+.resaweb{
+    height: 100vh;
+}
+
+.titre-resaweb{
+    color: #6C3E3E;
+    font-family: 'Marcellus', serif;
+    font-size: 1.2em;
+    display: flex;
+    margin-top:40px;
+    margin-left:20px;
+}
+/* footer */
+.footer {
+    background-color: #6C3E3E;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-content p {
+    font-size: 0.8em;
+}
+
+.footer-content a {
+    font-size: 0.8em;
+    color: white;
+    text-decoration: none;
+}
+
+.reseaux-sociaux {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.reseaux-sociaux a {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+
+.reseaux-sociaux img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.logo-footer{
+    width: 100px;
+    height: 100px;
+    margin-top:20px;
+
+}
+
+
+@media screen and (min-width: 768px) {
+    
+    nav {
+        background-color: #6C3E3E;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* Aligner verticalement les éléments au centre */
+        padding: 10px;
+        /* Ajouter un peu de marge pour une meilleure apparence visuelle */
+        gap: 100px;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: flex-start;
+        width: 50px;
+        margin-left: 5px;
+        /* Ajouter une marge à droite pour créer de l'espacement */
+    }
+
+
+    .rubrique {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin-left: auto; /* Push the links to the right */
+    }
+    
+    .rubrique a {
+        color: white;
+        font-size: 1em;
+        text-decoration: none;
+        margin-right: 50px;
+    }
+    
+
+
+    .footer {
+        background-color: #6C3E3E;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start; /* Align to the left */
+    }
+
+  
+
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px; /* Adjust the gap value as needed */
+    }
+
+    .footer-content p {
+        font-size: 1em;
+    }
+
+    .footer-content a {
+        font-size: 1em;
+        color: white;
+        text-decoration: none;
+        margin-left:30px;
+    }
+
+    .reseaux-sociaux {
+        margin:0;
+        margin-left:50px;
+
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 30px; /* Adjust the gap value as needed */
+    }
+
+    .reseaux-sociaux a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+    }
+
+    .reseaux-sociaux img {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+
+    .footer {
+        background-color: #6C3E3E;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px; /* Adjust the gap value as needed */
+    }
+    
+    .footer-content p {
+        font-size: 1em;
+    }
+    
+    .footer-content a {
+        font-size: 1em;
+        color: white;
+        text-decoration: none;
+        margin-left: 30px;
+    }
+    
+    .interieur-footer {
+        display: flex;
+        align-items: center; /* Align items vertically at the center */
+        justify-content: center; /* Align items horizontally at the center */
+        flex-wrap: wrap; /* Allow items to wrap onto the next line if there's not enough space */
+       
+    }
+    
+    .interieur-footer p {
+        margin-left:50px;
+        margin-right:100px; /* Remove default margin to prevent extra space around paragraphs */
+        
+    }
+    
+    .interieur-footer a {
+        /* Add some top margin for the link, adjust as needed */
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .logo-footer {
+        display: flex;
+        align-items: flex-start;
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+    }
+}
+
+
