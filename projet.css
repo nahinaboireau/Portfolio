@@ -80,7 +80,7 @@ div.bordure {
 
 
 
-.nom {
+.projet {
     color: #6C3E3E;
     font-family: 'Marcellus', serif;
     font-size: 1.1em;
@@ -157,7 +157,7 @@ div.bordure {
 
  
 /* paragraphe */
-p{
+.paragaphe-projet{
     margin-left:20px;
     margin-right:20px;
 }
@@ -228,7 +228,7 @@ p{
 
 
 @media screen and (min-width: 768px) {
-
+    
     nav {
         background-color: #6C3E3E;
         display: flex;
@@ -253,15 +253,103 @@ p{
         display: flex;
         flex-direction: row;
         align-items: flex-end;
+        margin-left: auto; /* Push the links to the right */
     }
-
+    
     .rubrique a {
         color: white;
         font-size: 1em;
         text-decoration: none;
         margin-right: 50px;
-
     }
+    
+
+    .paragaphe-projet{
+    margin-left:100px;
+    margin-right:100px;
+
+}
+
+.categorie {
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+
+.lien {
+    display: flex;
+    justify-content: center; /* Center-align the items horizontally */
+    align-items: center; /* Center-align the items vertically */
+   
+}
+
+.lien a {
+    text-decoration: none;
+    color: white;
+    padding: 10px; /* Add padding for better visual appearance */
+    margin: 0; /* Remove the default margin */
+    background-color: #6C3E3E;
+    display: inline-block; /* Set display to inline-block for proper alignment */
+    margin-right: 40px;
+}
+
+
+/* paragraphe */
+.paragaphe-projet{
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.titre-categorie{
+    color: #6C3E3E;
+    font-family: 'Marcellus', serif;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    margin-top:10px;
+    
+}
+
+.tous-projets {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        
+}
+
+.projet-associe .carre {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    position: relative; /* Ajouté pour positionner les spans */
+}
+
+.projet-associe .carre img {
+    width: 100%;
+    height: 100%;
+}
+
+.nom-projet1,
+.nom-projet2,
+.nom-projet3,
+.nom-projet4,
+.nom-projet5{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #6C3E3E;
+    font-size: 1.2em;
+    background-color: white;
+    padding: 5px;
+}
+
+
 
 
     .footer {
@@ -269,6 +357,20 @@ p{
         color: white;
         text-align: center;
         padding: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start; /* Align to the left */
+    }
+
+  
+
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px; /* Adjust the gap value as needed */
     }
 
     .footer-content p {
@@ -279,15 +381,17 @@ p{
         font-size: 1em;
         color: white;
         text-decoration: none;
+        margin-left:30px;
     }
 
     .reseaux-sociaux {
-        margin-top: 20px;
+        margin:0;
+        margin-left:50px;
+
         display: flex;
-        align-items: center;
+        align-items: flex-end;
         justify-content: center;
-        gap: 30px;
-        /* Ajustez la valeur de gap selon vos besoins */
+        gap: 30px; /* Adjust the gap value as needed */
     }
 
     .reseaux-sociaux a {
@@ -304,12 +408,57 @@ p{
         object-fit: contain;
     }
 
+    .footer {
+        background-color: #6C3E3E;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px; /* Adjust the gap value as needed */
+    }
+    
+    .footer-content p {
+        font-size: 1em;
+    }
+    
+    .footer-content a {
+        font-size: 1em;
+        color: white;
+        text-decoration: none;
+        margin-left: 30px;
+    }
+    
+    .interieur-footer {
+        display: flex;
+        align-items: center; /* Align items vertically at the center */
+        justify-content: center; /* Align items horizontally at the center */
+        flex-wrap: wrap; /* Allow items to wrap onto the next line if there's not enough space */
+       
+    }
+    
+    .interieur-footer p {
+        margin-left:50px;
+        margin-right:100px; /* Remove default margin to prevent extra space around paragraphs */
+        
+    }
+    
+    .interieur-footer a {
+        /* Add some top margin for the link, adjust as needed */
+        text-decoration: none;
+        color: inherit;
+    }
 
     .logo-footer {
+        display: flex;
+        align-items: flex-start;
         width: 100px;
         height: 100px;
         margin-top: 20px;
-
     }
-
 }
