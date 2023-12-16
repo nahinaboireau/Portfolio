@@ -40,7 +40,7 @@ nav {
 
 .rubrique a {
     color: white;
-    font-size: 0.8em;
+    font-size: 0.6em;
     text-decoration: none;
 }
 
@@ -68,7 +68,8 @@ div.boite-tout {
 }
 
 
-.img-resaweb {
+.img-resaweb,
+.img-portrait-chinois {
     width: 87%; /* La largeur de l'image est définie à 100% de la largeur de son conteneur parent */
     height: auto; /* La hauteur est ajustée automatiquement pour conserver les proportions de l'image */
     display: block; /* Supprime l'espace sous l'image, ce qui peut être causé par l'affichage en ligne */
@@ -91,17 +92,26 @@ div.boite-tout {
 }
 
 
-.resaweb{
-    height: 100vh;
+.resaweb, 
+.portrait-chinois{
+    height: 100%;
 }
 
-.titre-resaweb{
+.titre-resaweb,
+.titre-portrait-chinois{
     color: #6C3E3E;
     font-family: 'Marcellus', serif;
     font-size: 1.2em;
     display: flex;
     margin-top:40px;
     margin-left:20px;
+}
+
+
+.explication-resaweb,
+.explication-portrait {
+    margin-left:20px;
+    margin-right:20px;
 }
 /* footer */
 .footer {
