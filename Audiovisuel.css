@@ -11,88 +11,146 @@ body {
 }
 
 
-    /* ... (Styles pour les écrans de 320px) */
-    nav {
-        background-color: #6C3E3E;
-        display: flex;
-        flex-direction: column;
+/* ... (Styles pour les écrans de 320px) */
+nav {
+    background-color: #6C3E3E;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    margin: auto;
+    padding-top: 5px;
+}
+
+
+.rubrique {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    gap: 5px;
+    height: 100%;
+
+}
+
+.rubrique a {
+    color: rgb(255, 255, 255);
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+
+div.boite-tout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+
+
+}
+
+
+.projet-audiovisuel {
+    color: #6C3E3E;
+    font-family: 'Marcellus', serif;
+    font-size: 1.1em;
+    display: flex;
+    margin: 0;
+    margin-top: 10px;
+
+}
+
+.vdeo,
+.sons{
+    height:100%;
+}
+.intro-audiovisuel {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.partie-video,
+.partie-son {
+    color:#6C3E3E;
+    padding: 10px;
+    /* Add padding for better visual appearance */
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    /* Add margin for spacing between links */
+   
+
+
+    .explication-video,
+    .explication-son{
+        margin-left:20px;
+        margin-right:20px;
     }
 
-    .logo {
-        width: 20%;
-        display: flex;
-        margin: auto;
-        padding-top: 5px;
+
+
+    .iframe-itw {
+      margin-left:10px;
+      margin-right:10px;
     }
 
 
+.footer {
+    background-color: #6C3E3E;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
 
-    .rubrique {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 10px;
-        padding-top: 5px;
-        gap: 5px;
-        height: 100%;
+.footer-content p {
+    font-size: 0.8em;
+}
 
-    }
+.footer-content a {
+    font-size: 0.8em;
+    color: white;
+    text-decoration: none;
+}
 
-    .rubrique a {
-        color: rgb(255, 255, 255);
-        font-size: 0.8em;
-        text-decoration: none;
-    }
+.reseaux-sociaux {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
 
-    .footer {
-        background-color: #6C3E3E;
-        color: white;
-        text-align: center;
-        padding: 10px;
-    }
+.reseaux-sociaux a {
 
-    .footer-content p {
-        font-size: 0.8em;
-    }
-
-    .footer-content a {
-        font-size: 0.8em;
-        color: white;
-        text-decoration: none;
-    }
-
-    .reseaux-sociaux {
-        margin-top: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .reseaux-sociaux a {
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 30px;
-        height: 30px;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
 
 
-    .reseaux-sociaux img {
+.reseaux-sociaux img {
 
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-    }
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 
 
-    
-.logo-footer{
+
+.logo-footer {
     width: 100px;
     height: 100px;
-    margin-top:20px;
+    margin-top: 20px;
 
 }
 
@@ -136,7 +194,7 @@ body {
     }
 
 
-    
+
     .footer {
         background-color: #6C3E3E;
         color: white;
@@ -145,17 +203,19 @@ body {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: flex-start; /* Align to the left */
+        justify-content: flex-start;
+        /* Align to the left */
     }
 
-  
+
 
     .footer-content {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 30px; /* Adjust the gap value as needed */
+        gap: 30px;
+        /* Adjust the gap value as needed */
     }
 
     .footer-content p {
@@ -166,17 +226,18 @@ body {
         font-size: 1em;
         color: white;
         text-decoration: none;
-        margin-left:30px;
+        margin-left: 30px;
     }
 
     .reseaux-sociaux {
-        margin:0;
-        margin-left:50px;
+        margin: 0;
+        margin-left: 50px;
 
         display: flex;
         align-items: flex-end;
         justify-content: center;
-        gap: 30px; /* Adjust the gap value as needed */
+        gap: 30px;
+        /* Adjust the gap value as needed */
     }
 
     .reseaux-sociaux a {
@@ -199,40 +260,45 @@ body {
         text-align: center;
         padding: 10px;
     }
-    
+
     .footer-content {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 30px; /* Adjust the gap value as needed */
+        gap: 30px;
+        /* Adjust the gap value as needed */
     }
-    
+
     .footer-content p {
         font-size: 1em;
     }
-    
+
     .footer-content a {
         font-size: 1em;
         color: white;
         text-decoration: none;
         margin-left: 30px;
     }
-    
+
     .interieur-footer {
         display: flex;
-        align-items: center; /* Align items vertically at the center */
-        justify-content: center; /* Align items horizontally at the center */
-        flex-wrap: wrap; /* Allow items to wrap onto the next line if there's not enough space */
-       
+        align-items: center;
+        /* Align items vertically at the center */
+        justify-content: center;
+        /* Align items horizontally at the center */
+        flex-wrap: wrap;
+        /* Allow items to wrap onto the next line if there's not enough space */
+
     }
-    
+
     .interieur-footer p {
-        margin-left:50px;
-        margin-right:100px; /* Remove default margin to prevent extra space around paragraphs */
-        
+        margin-left: 50px;
+        margin-right: 100px;
+        /* Remove default margin to prevent extra space around paragraphs */
+
     }
-    
+
     .interieur-footer a {
         /* Add some top margin for the link, adjust as needed */
         text-decoration: none;
