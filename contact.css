@@ -91,7 +91,6 @@ div.bordure {
 
 
 
-
     .portfolio {
         color: #6C3E3E;
         font-family: 'Marcellus', serif;
@@ -121,12 +120,13 @@ div.bordure {
 
     
    .les-contacts{
-    
+  
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
+        margin-bottom:50px;
         
    }
     
@@ -263,6 +263,74 @@ div.bordure {
         text-decoration: none;
         margin-right: 50px;
     }
+
+    .nom {
+        color: #6C3E3E;
+        font-family: 'Marcellus', serif;
+        font-size: 2em;
+        display: flex;
+        margin: 0;
+        margin-top: 10px;
+
+    }
+
+    .portfolio {
+        color: #6C3E3E;
+        font-family: 'Marcellus', serif;
+        font-size: 0.9em;
+        display: flex;
+        margin: 0;
+    }
+
+    .cercle-photo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 20px;
+        width: 150px;
+    }
+    
+    .cercle-photo img {
+        width: 100%; /* Ensure the image takes up the full width of its container */
+        max-width: 150px; /* Set a maximum width for the image */
+        height: auto; /* Maintain the aspect ratio of the image */
+    }
+
+
+    .intro-contact{
+        margin-left:350px;
+        margin-right:350px;
+    }
+
+
+    
+    .les-contacts{
+  
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin-bottom:50px;
+        margin-left:500px;
+        margin-right:500px;
+        
+   }
+
+.les-contacts-associe .carre {
+width: 67px;
+height: 67px;
+border: none;
+background: #FFF;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+margin-top: 10px;
+
+}
+
 
     .footer {
         background-color: #6C3E3E;
