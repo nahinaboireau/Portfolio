@@ -82,6 +82,8 @@ div.boite-tout {
     display: block; /* Supprime l'espace sous l'image, ce qui peut être causé par l'affichage en ligne */
     max-width: 100%; /* Pour s'assurer que l'image ne dépasse pas sa taille originale */
     margin-left:20px;
+    border-radius: 10px;
+    
 }
 
 
@@ -89,7 +91,10 @@ div.boite-tout {
 .Campagne,
 .ENT,
 .portfolio{
+
     height: 100%;
+   
+    
 }
 
 
@@ -236,6 +241,68 @@ div.boite-tout {
         margin-right: 50px;
     }
 
+    .projet {
+        color: #6C3E3E;
+        font-family: 'Marcellus', serif;
+        font-size: 2em;
+        display: flex;
+        margin:0;
+        margin-top:10px;
+        
+    }
+    .ENT,
+    .portfolio,
+    .Campagne,
+    .JQ{
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Set two equal columns */
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin-left:50px;
+        margin-right:50px;
+        margin-bottom:100px;
+        height:100%;
+    }
+
+
+    .img-ent,
+    .img-portfolio, 
+    .img-campagne,
+    .img-jq{
+        grid-column: 1; /* Place the image in the first column */
+        grid-row: 1; /* Place the image in the first row */
+        width: 80%; /* Ensure the image takes the full width of its grid cell */
+        margin:auto;
+        border-radius: 15px;
+        margin-left:40px;
+      
+    }
+
+    
+    .intro-graphisme{
+        margin-left:100px;
+        margin-right:100px;
+    }
+
+   
+    .titre-ent,
+    .titre-portfolio,
+    .titre-campagne,
+    .titre-jq{
+        margin-left:90px;
+       
+    }
+
+    
+    .explication-ent,
+    .explication-portfolio,
+    .explication-campagne, 
+    .explication-jq{
+        grid-column: 2; /* Place the text content in the second column */
+        grid-row: 1; /* Place the text content in the first row */
+        margin:auto;
+    }
 
     .button-savoir {
         display: flex;
@@ -256,6 +323,21 @@ div.boite-tout {
         font-size: 1em;
     }
     
+
+    svg{
+        margin-right:15px;
+    }
+
+.button-savoir {
+    grid-row: 3; /* Place the button under the text content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
     .footer {
         background-color: #6C3E3E;
         display: flex;

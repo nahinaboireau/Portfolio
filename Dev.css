@@ -79,6 +79,7 @@ div.boite-tout {
     display: block; /* Supprime l'espace sous l'image, ce qui peut être causé par l'affichage en ligne */
     max-width: 100%; /* Pour s'assurer que l'image ne dépasse pas sa taille originale */
     margin-left:20px;
+    border-radius: 10px;
 }
 
 
@@ -232,6 +233,10 @@ div.boite-tout {
         width: 90%; /* Ensure the image takes the full width of its grid cell */
         margin:auto;
         border-radius: 15px;
+        /* border:none; */
+        margin-bottom:50px;
+
+        
         
       
     }
@@ -248,6 +253,7 @@ div.boite-tout {
         margin-left:90px;
        
     }
+    
 
     
     .explication-dataviz,
