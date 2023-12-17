@@ -50,7 +50,7 @@ div.boite-tout {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:20px;
+    margin-top: 20px;
 
 
 
@@ -61,8 +61,8 @@ div.boite-petit {
     flex-direction: column;
     height: 48%;
     padding-right: 10px;
-    margin-top:10px;
-    
+    margin-top: 10px;
+
 
 
 
@@ -85,9 +85,9 @@ div.bordure {
     font-family: 'Marcellus', serif;
     font-size: 1.1em;
     display: flex;
-    margin:0;
-    margin-top:10px;
-    
+    margin: 0;
+    margin-top: 10px;
+
 }
 
 
@@ -101,7 +101,7 @@ div.bordure {
 
 /*lien pour les catégories */
 .categorie {
-    margin-top:40px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
@@ -112,14 +112,17 @@ div.bordure {
 .lien a {
     text-decoration: none;
     color: white;
-    padding: 10px; /* Add padding for better visual appearance */
-    margin: 5px; /* Add margin for spacing between links */
+    padding: 10px;
+    /* Add padding for better visual appearance */
+    margin: 5px;
+    /* Add margin for spacing between links */
     background-color: #6C3E3E;
-    display: inline-block; /* Set display to inline-block for proper alignment */
+    display: inline-block;
+    /* Set display to inline-block for proper alignment */
 }
 
 .tous-projets {
-    margin-top:50px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
@@ -131,7 +134,8 @@ div.bordure {
     justify-content: center;
     margin: auto;
     margin-top: 10px;
-    position: relative; /* Ajouté pour positionner les spans */
+    position: relative;
+    /* Ajouté pour positionner les spans */
 }
 
 .projet-associe .carre img {
@@ -139,11 +143,13 @@ div.bordure {
     height: 100%;
 }
 
+
+
 .nom-projet1,
 .nom-projet2,
 .nom-projet3,
 .nom-projet4,
-.nom-projet5{
+.nom-projet5 {
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -155,81 +161,96 @@ div.bordure {
 
 
 
- 
+
 /* paragraphe */
-.paragaphe-projet{
-    margin-left:20px;
-    margin-right:20px;
+.paragaphe-projet {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.titre-categorie{
+.titre-categorie {
     color: #6C3E3E;
     font-family: 'Marcellus', serif;
     font-size: 1.1em;
     display: flex;
     justify-content: center;
-    margin:auto;
-    margin-top:10px;
-    
-    
+    margin: auto;
+    margin-top: 10px;
+
+
 }
 
 
 /* footer */
+
 .footer {
     background-color: #6C3E3E;
     color: white;
     text-align: center;
     padding: 10px;
-}
-
-.footer-content p {
-    font-size: 0.8em;
-}
-
-.footer-content a {
-    font-size: 0.8em;
-    color: white;
-    text-decoration: none;
-}
-
-.reseaux-sociaux {
-    margin-top: 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adjust the value of the gap according to your needs */
+    margin-bottom: -5px; /* Reduce margin-bottom to bring p and a closer */
+}
+
+.footer-content p, .footer-content a {
+    font-size: 0.9em;
+    margin: 5px 0; /* Add a margin to separate p and a vertically */
+}
+.reseaux-sociaux {
+    margin:auto;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Ajustez la valeur du gap selon vos besoins */
 }
 
 .reseaux-sociaux a {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 30px;
     height: 30px;
 }
 
-
 .reseaux-sociaux img {
-
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-.logo-footer{
-    width: 100px;
-    height: 100px;
-    margin-top:20px;
-
+.interieur-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+     /* Ajustez la valeur du gap selon vos besoins */
 }
 
 
 
+.interieur-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-footer {
+    width:20%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 0;
+}
+
+
 
 @media screen and (min-width: 768px) {
-    
+
     nav {
         background-color: #6C3E3E;
         display: flex;
@@ -254,24 +275,25 @@ div.bordure {
         display: flex;
         flex-direction: row;
         align-items: flex-end;
-        margin-left: auto; /* Push the links to the right */
+        margin-left: auto;
+        /* Push the links to the right */
     }
-    
+
     .rubrique a {
         color: white;
         font-size: 1em;
         text-decoration: none;
         margin-right: 50px;
     }
-    
+
     .projet {
         color: #6C3E3E;
         font-family: 'Marcellus', serif;
         font-size: 2em;
         display: flex;
-        margin:0;
-        margin-top:10px;
-        
+        margin: 0;
+        margin-top: 10px;
+
     }
 
     .portfolio {
@@ -281,209 +303,157 @@ div.bordure {
         display: flex;
         margin: 0;
     }
-    
-
-    .paragaphe-projet{
-    margin-left:100px;
-    margin-right:100px;
-
-}
-
-.categorie {
-    margin-top:40px;
-    margin-bottom: 20px;
-}
-
-.lien {
-    display: flex;
-    justify-content: center; /* Center-align the items horizontally */
-    align-items: center; /* Center-align the items vertically */
-   
-}
-
-.lien a {
-    text-decoration: none;
-    color: white;
-    padding: 10px; /* Add padding for better visual appearance */
-    margin: 0; /* Remove the default margin */
-    background-color: #6C3E3E;
-    display: inline-block; /* Set display to inline-block for proper alignment */
-    margin-right: 40px;
-}
 
 
-/* paragraphe */
-.paragaphe-projet{
-    margin-left:100px;
-    margin-right:100px;
-}
+    .paragaphe-projet {
+        margin-left: 100px;
+        margin-right: 100px;
 
-.titre-categorie{
-    color: #6C3E3E;
-    font-family: 'Marcellus', serif;
-    font-size: 1.3em;
-    display: flex;
-    justify-content: center;
-    margin:auto;
-    margin-top:50px;
-    
-}
+    }
 
-.tous-projets {
-   
+    .categorie {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .lien {
+        display: flex;
+        justify-content: center;
+        /* Center-align the items horizontally */
+        align-items: center;
+        /* Center-align the items vertically */
+
+    }
+
+    .lien a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        /* Add padding for better visual appearance */
+        margin: 0;
+        /* Remove the default margin */
+        background-color: #6C3E3E;
+        display: inline-block;
+        /* Set display to inline-block for proper alignment */
+        margin-right: 40px;
+    }
+
+
+    /* paragraphe */
+    .paragaphe-projet {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .titre-categorie {
+        color: #6C3E3E;
+        font-family: 'Marcellus', serif;
+        font-size: 1.3em;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 50px;
+
+    }
+
+    .tous-projets {
+
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 0px;
-        grid-row-gap: 50px; /* Adjust this value to reduce the space between rows */
-        margin-bottom:100px;
-        margin-left:20px;
+        grid-row-gap: 50px;
+        /* Adjust this value to reduce the space between rows */
+        margin-bottom: 100px;
+        margin-left: 20px;
         margin-right: 20px;
-    
-    
-        
-}
 
-.projet-associe .carre {
-    width: 450px;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    margin-top: 10px;
-    position: relative; /* Ajouté pour positionner les spans */
-}
 
-.projet-associe .carre img {
-    width: 100%;
-    height: 100%;
-}
 
-.nom-projet1,
-.nom-projet2,
-.nom-projet3,
-.nom-projet4,
-.nom-projet5{
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    color: #6C3E3E;
-    font-size: 1.2em;
-    background-color: white;
-    padding: 5px;
-}
+    }
+
+    .projet-associe .carre {
+        width: 300px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+        position: relative;
+        /* Ajouté pour positionner les spans */
+    }
+
+    .projet-associe .carre img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    .nom-projet1,
+    .nom-projet2,
+    .nom-projet3,
+    .nom-projet4,
+    .nom-projet5 {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        color: #6C3E3E;
+        font-size: 1.2em;
+        background-color: white;
+        padding: 5px;
+    }
+
 
 
 
 
     .footer {
         background-color: #6C3E3E;
-        color: white;
-        text-align: center;
-        padding: 10px;
         display: flex;
-        flex-direction: row;
         align-items: center;
-        justify-content: flex-start; /* Align to the left */
+        justify-content: space-between;
+        padding: 10px;
     }
-
-  
 
     .footer-content {
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 30px; /* Adjust the gap value as needed */
+        gap: 15px;
+        /* Adjust the value of the gap according to your needs */
     }
 
-    .footer-content p {
-        font-size: 1em;
-    }
-
+    .footer-content p,
     .footer-content a {
-        font-size: 1em;
+        font-size: 0.9em;
         color: white;
         text-decoration: none;
-        margin-left:30px;
+        margin-left: 20px;
+        /* Add margin-bottom to create space between p and a */
     }
 
     .reseaux-sociaux {
-        margin:0;
-        margin-left:50px;
-
         display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        gap: 30px; /* Adjust the gap value as needed */
+        align-items: center;
+        gap: 10px;
     }
 
     .reseaux-sociaux a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 30px;
-        height: 30px;
-    }
-
-    .reseaux-sociaux img {
         width: 50px;
         height: 50px;
-        object-fit: contain;
-    }
-
-    .footer {
-        background-color: #6C3E3E;
-        color: white;
-        text-align: center;
-        padding: 10px;
-    }
-    
-    .footer-content {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 30px; /* Adjust the gap value as needed */
-    }
-    
-    .footer-content p {
-        font-size: 1em;
-    }
-    
-    .footer-content a {
-        font-size: 1em;
-        color: white;
-        text-decoration: none;
-        margin-left: 30px;
-    }
-    
-    .interieur-footer {
-        display: flex;
-        align-items: center; /* Align items vertically at the center */
-        justify-content: center; /* Align items horizontally at the center */
-        flex-wrap: wrap; /* Allow items to wrap onto the next line if there's not enough space */
-       
-    }
-    
-    .interieur-footer p {
-        margin-left:50px;
-        margin-right:100px; /* Remove default margin to prevent extra space around paragraphs */
-        
-    }
-    
-    .interieur-footer a {
-        /* Add some top margin for the link, adjust as needed */
-        text-decoration: none;
-        color: inherit;
     }
 
     .logo-footer {
+        width: 70px;
+        /* Ajustez la largeur selon vos besoins */
+        margin: auto;
+    }
+
+    .interieur-footer {
         display: flex;
-        align-items: flex-start;
-        width: 100px;
-        height: 100px;
-        margin-top: 20px;
+        flex-direction: row;
+
+
     }
 }
