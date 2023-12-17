@@ -1,0 +1,334 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    margin: 0;
+    font-family: 'Marcellus', serif;
+}
+
+
+/* nav */
+
+
+/* nav */
+nav {
+    background-color: #6C3E3E;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logo {
+    width: 20%;
+    display: flex;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.rubrique {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    gap: 5px;
+    height: 100%;
+
+}
+
+.rubrique a {
+    color: white;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+.projet {
+    color: #6C3E3E;
+    font-family: 'Marcellus', serif;
+    font-size: 1.1em;
+    display: flex;
+    margin:0;
+    margin-top:10px;
+    
+}
+
+svg {
+    width:50px;
+    height:35px;
+}
+
+
+div.boite-tout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+
+
+
+}
+
+
+
+.projet {
+    color: #6C3E3E;
+    font-family: 'Marcellus', serif;
+    font-size: 1.1em;
+    display: flex;
+    margin:0;
+    margin-top:10px;
+    
+}
+
+.intro-photo{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+/* /galerie */
+
+.titre-BandW{
+    color: #6C3E3E;
+    font-family: 'Marcellus', serif;
+    font-size: 1.2em;
+    display: flex;
+    margin-top:40px;
+    margin-left:20px;
+}
+
+.tous-photos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.projet-associe .photo {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+    /* Ajouté pour positionner les spans */
+}
+
+.projet-associe .photo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.footer {
+    background-color: #6C3E3E;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adjust the value of the gap according to your needs */
+    margin-bottom: -5px; /* Reduce margin-bottom to bring p and a closer */
+}
+
+.footer-content p, .footer-content a {
+    font-size: 0.9em;
+    margin: 5px 0; /* Add a margin to separate p and a vertically */
+}
+.reseaux-sociaux {
+    margin:auto;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Ajustez la valeur du gap selon vos besoins */
+}
+
+.reseaux-sociaux a {
+    width: 30px;
+    height: 30px;
+}
+
+.reseaux-sociaux img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.interieur-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+     /* Ajustez la valeur du gap selon vos besoins */
+}
+
+
+
+.interieur-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-footer {
+    width:20%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 0;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    nav {
+        background-color: #6C3E3E;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+        gap: 100px;
+    }
+    
+    .logo {
+        width: 50px;
+        margin-left: 5px;
+    }
+ 
+    .rubrique {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        margin-left: auto; /* Push the links to the right */
+    }
+    
+    .rubrique a {
+        color: white;
+        font-size: 1em;
+        text-decoration: none;
+        margin-right: 50px;
+    }
+
+       
+.projet{
+    color: #6C3E3E;
+    font-family: 'Marcellus', serif;
+    font-size: 2em;
+    display: flex;
+    margin:0;
+    margin-top:10px;
+    
+}
+
+
+
+
+.titre-BandW {
+
+        color: #6C3E3E;
+        font-family: 'Marcellus', serif;
+        font-size: 1.3em;
+        text-align: left; /* Aligne le texte à gauche */
+        margin: auto;
+        margin-top: 50px;
+        margin-left:50px
+    
+    
+
+}
+
+.tous-photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap:0px; /* Ajout du gap horizontal entre les colonnes */
+    grid-row-gap: 50px; /* Ajout du gap vertical entre les lignes */
+    margin-bottom: 50px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+}
+
+.projet-associe .photo {
+    width: 100%;
+    max-width: 300px; /* Ajuste la largeur maximale pour le rendre responsive */
+    height: auto; /* Permet à la hauteur de s'ajuster en proportion */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+}
+
+.projet-associe .photo img {
+    width: 400px;
+    max-width: 500px; /* Ajuste la largeur maximale pour le rendre responsive */
+   height:400px; /* Ajuste la hauteur maximale pour éviter un étirement excessif */
+    object-fit: cover; /* Assure que l'image couvre tout le conteneur tout en préservant l'aspect ratio */
+}
+
+
+
+   
+
+    .footer {
+        background-color: #6C3E3E;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        gap: 15px; /* Adjust the value of the gap according to your needs */
+    }
+    
+    .footer-content p,
+    .footer-content a {
+        font-size: 0.9em;
+        color: white;
+        text-decoration: none;
+        margin-left:20px;
+      /* Add margin-bottom to create space between p and a */
+    }
+    
+    .reseaux-sociaux {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .reseaux-sociaux a {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .logo-footer {
+        width: 70px; /* Ajustez la largeur selon vos besoins */
+        margin:auto;
+    }
+    
+    .interieur-footer{
+        display:flex;
+        flex-direction: row;
+      
+
+    }
+}
+
+
