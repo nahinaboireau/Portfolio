@@ -92,7 +92,10 @@ div.boite-tout {
 
 /* /galerie */
 
-.titre-BandW{
+.titre-BandW,
+.titre-Nature,
+.titre-Ville,
+.titre-Animaux{
     color: #6C3E3E;
     font-family: 'Marcellus', serif;
     font-size: 1.2em;
@@ -101,7 +104,10 @@ div.boite-tout {
     margin-left:20px;
 }
 
-.tous-photos {
+.tous-photos,
+.tous-photos2,
+.tous-photos3,
+ .tous-photo4{
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -124,6 +130,24 @@ div.boite-tout {
     height: 100%;
 }
 
+.button-savoir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom:50px;
+}
+
+.button-savoir a {
+    border-radius: 38px;
+    background: #6C3E3E;
+    padding: 8px 15px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+}
 
 
 
@@ -237,7 +261,10 @@ div.boite-tout {
 
 
 
-.titre-BandW {
+.titre-BandW,
+.titre-Nature,
+.titre-Ville,
+.titre-Animaux {
 
         color: #6C3E3E;
         font-family: 'Marcellus', serif;
@@ -251,7 +278,10 @@ div.boite-tout {
 
 }
 
-.tous-photos {
+.tous-photos,
+.tous-photos2,
+.tous-photos3,
+.tous-photos4{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -281,9 +311,31 @@ div.boite-tout {
 }
 
 
+.button-savoir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom:50px;
+}
+
+.button-savoir a {
+    border-radius: 38px;
+    background: #6C3E3E;
+    padding: 15px 25px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+}
+
 
    
-
+.intro-photo{
+    margin-left:100px;
+    margin-right: 100px;
+}
     .footer {
         background-color: #6C3E3E;
         display: flex;
