@@ -73,7 +73,10 @@ div.boite-tout {
 }
 
 
-.img-jq{
+.img-jq,
+.img-campagne, 
+.img-ent,
+.img-portfolio{
     width: 87%; /* La largeur de l'image est définie à 100% de la largeur de son conteneur parent */
     height: auto; /* La hauteur est ajustée automatiquement pour conserver les proportions de l'image */
     display: block; /* Supprime l'espace sous l'image, ce qui peut être causé par l'affichage en ligne */
@@ -82,18 +85,28 @@ div.boite-tout {
 }
 
 
-.JQ{
+.JQ,
+.Campagne,
+.ENT,
+.portfolio{
     height: 100%;
 }
 
 
-.explication-jq {
+.explication-jq,
+.explication-campagne,
+.explication-ent,
+.explication-portfolio{
+  
     margin-left:20px;
     margin-right:20px;
 }
 
 
-.titre-jq{
+.titre-jq,
+.titre-campagne,
+.titre-ent,
+.titre-portfolio{
     color: #6C3E3E;
     font-family: 'Marcellus', serif;
     font-size: 1.2em;
@@ -110,7 +123,7 @@ div.boite-tout {
     justify-content: center;
     text-align: center;
     margin-top: 15px;
-    margin-bottom:50px;
+    margin-bottom:15px;
 }
 
 .button-savoir a {
