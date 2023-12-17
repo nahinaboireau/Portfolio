@@ -94,20 +94,9 @@ div.boite-tout {
 
 /* /galerie */
 
-.titre-BandW,
-.titre-Nature,
-.titre-Ville,
-.titre-Animaux{
-    color: #6C3E3E;
-    font-family: 'Marcellus', serif;
-    font-size: 1.2em;
-    display: flex;
-    margin-top:40px;
-    margin-left:20px;
-}
+
 
 .tous-photos,
-.tous-photos2,
 .tous-photos3,
  .tous-photo4{
     margin-top: 20px;
@@ -263,53 +252,40 @@ div.boite-tout {
 
 
 
-.titre-BandW,
-.titre-Nature,
-.titre-Ville,
-.titre-Animaux {
-
-        color: #6C3E3E;
-        font-family: 'Marcellus', serif;
-        font-size: 1.3em;
-        text-align: left; /* Aligne le texte à gauche */
-        margin: auto;
-        margin-top: 50px;
-        margin-left:50px
-    
-    
-
+.galery{
+    height:100%;
 }
 
 .tous-photos,
-.tous-photos2,
 .tous-photos3,
-.tous-photos4{
+.tous-photos4 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap:0px; /* Ajout du gap horizontal entre les colonnes */
-    grid-row-gap: 50px; /* Ajout du gap vertical entre les lignes */
+    grid-template-rows: repeat(2, 1fr); /* Ajustez le nombre de lignes à 2 */
+    grid-column-gap: 0px;
+    grid-row-gap: 10px; /* Ajustez cette valeur en fonction de vos préférences */
     margin-bottom: 50px;
-    /* margin-left: 20px;
-    margin-right: 20px; */
+}
+
+
+
+
+.projet-associe .photo img {
+    width: 400px;
+    max-width: 500px;
+    height: 400px;
+    object-fit: cover;
 }
 
 .projet-associe .photo {
     width: 100%;
-    max-width: 300px; /* Ajuste la largeur maximale pour le rendre responsive */
-    height: auto; /* Permet à la hauteur de s'ajuster en proportion */
+    max-width: 300px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    /* margin-top: 10px; Supprimez cette ligne */
     position: relative;
-}
-
-.projet-associe .photo img {
-    width: 400px;
-    max-width: 500px; /* Ajuste la largeur maximale pour le rendre responsive */
-   height:400px; /* Ajuste la hauteur maximale pour éviter un étirement excessif */
-    object-fit: cover; /* Assure que l'image couvre tout le conteneur tout en préservant l'aspect ratio */
 }
 
 
