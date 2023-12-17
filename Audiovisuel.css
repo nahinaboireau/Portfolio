@@ -70,6 +70,7 @@ div.boite-tout {
 .sons{
     height:100%;
 }
+
 .intro-audiovisuel {
     margin-left: 20px;
     margin-right: 20px;
@@ -91,16 +92,27 @@ div.boite-tout {
 
     .explication-video,
     .explication-son{
-        margin-left:20px;
-        margin-right:20px;
+        margin-left:48px;
+        margin-right:48px;
     }
 
-
+    .iframe-itw iframe{
+        width: 80%; /* La largeur de l'image est définie à 100% de la largeur de son conteneur parent */
+        height: auto; /* La hauteur est ajustée automatiquement pour conserver les proportions de l'image */
+        display: block; /* Supprime l'espace sous l'image, ce qui peut être causé par l'affichage en ligne */
+        max-width: 100%; /* Pour s'assurer que l'image ne dépasse pas sa taille originale */
+       margin:auto;
+       
+    }
+    
 
     .iframe-itw {
       margin-left:10px;
       margin-right:10px;
     }
+
+
+
     
     .podcast img {
         width: 70%; /* ou toute autre valeur en pourcentage */
@@ -112,7 +124,15 @@ div.boite-tout {
     
     /* Ajoutez d'autres styles au besoin */
     
-
+    .titre-audiovisuel{
+        color: #6C3E3E;
+        font-family: 'Marcellus', serif;
+        font-size: 1.2em;
+        display: flex;
+        margin-top:40px;
+        margin-left:20px;
+    }
+    
 
     .footer {
         background-color: #6C3E3E;
@@ -209,6 +229,81 @@ div.boite-tout {
         text-decoration: none;
         margin-right: 50px;
     }
+
+
+    .video,
+    .sons{
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Set two equal columns */
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin-left:50px;
+        margin-right:50px;
+        margin-bottom:50px;
+        height:100%; 
+    }
+
+    
+    .iframe-itw,
+    .podcast{
+        grid-column: 1; /* Place the text content in the second column */
+        grid-row: 1; /* Place the text content in the first row */
+        margin:auto;
+        
+      
+     
+
+    }
+
+    .iframe-itw iframe,
+    .podcast img{
+        width:450px;
+        height: 350px;
+      
+        margin:auto;
+
+        
+        
+    }
+
+    .intro-audiovisuel{
+        margin-left:100px;
+        margin-right:100px;
+    }
+
+    
+
+    .explication-video,
+    .explication-son {
+        grid-column: 2; /* Place the text content in the second column */
+        grid-row: 1; /* Place the text content in the first row */
+        margin:auto;
+        margin-left: 20px;
+        margin-right: 50px;
+       
+    }
+
+    .partie-video,
+    .partie-son {
+        color:#6C3E3E;
+        padding: 10px;
+        /* Add padding for better visual appearance */
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:50px;
+        margin-bottom:50px;
+        }
+        /* Add margin for spacing between links */
+       
+    
+    
+  
+    
+
+
 
 
     .footer {

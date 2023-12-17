@@ -180,9 +180,6 @@ div.boite-tout {
     margin-right: 0;
 }
 @media screen and (min-width: 768px) {
-   
-
- 
     nav {
         background-color: #6C3E3E;
         display: flex;
@@ -234,7 +231,7 @@ div.boite-tout {
         grid-row: 1; /* Place the image in the first row */
         width: 90%; /* Ensure the image takes the full width of its grid cell */
         margin:auto;
-        border-radius: 15px;;
+        border-radius: 15px;
         
       
     }
